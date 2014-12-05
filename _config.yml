@@ -15,6 +15,6 @@ name: BUILDS
 highlighter: true
 exclude: [README.md, _scripts, Gemfile, Gemfile.lock]
 plugins: ./_plugins
-base: "BUILDS-.githu.io"
+base: "BUILDS-.github.io"
 paginate_path: "events/page:num"
 paginate: 5
