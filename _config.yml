@@ -12,10 +12,9 @@
 # markdown: kramdown
 
 name: BUILDS
-# base: localhost:4000
 highlighter: true
 exclude: [README.md, _scripts, Gemfile, Gemfile.lock]
 plugins: ./_plugins
-base: "localhost:4000"
+base: "BUILDS-.githu.io"
 paginate_path: "events/page:num"
 paginate: 5
