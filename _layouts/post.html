@@ -2,11 +2,11 @@
 layout: default
 ---
 
-<div id = "section" style = "margin-top: -50px;" class="jumbotron">
+<div style = "margin-top: -50px;" class="jumbotron">
 	<div style="color: black; font-family: 'Noto Sans', sans-serif; font-size: 15px;" class ="container marketing jumbotron">
 	<h2 class="post">{{ page.title }}</h2>
-	 <p class="author" style="font-size: 16px">
-	    <i style = "color: #cc2200;" class="fa fa-user"></i> {%if post.author %} {{post.author}} {%else%} BUILDS {%endif%} &nbsp; <i style = "color: #cc2200;" class="fa fa-calendar"></i> {{ post.date | date: "%m/%d/%Y"}}</span> 
+	<p class="author" style="font-size: 16px">
+	    <i style = "color: #cc2200;" class="fa fa-user"></i> {%if page.author %} {{page.author}} {%else%} BUILDS {%endif%} &nbsp; <i style = "color: #cc2200;" class="fa fa-calendar"></i> {{ page.date | date: "%m/%d/%Y"}}</span> 
 	  </p>
 	{% if page.image_url %}
 	<center>
