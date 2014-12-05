@@ -474,6 +474,25 @@ a {
 	font-size: 18px;
 }
 
-.post{
+.post h2{
 	color: black;
+}
+
+.post {
+  padding: 30px 15px;
+  margin-bottom: 30px;
+  color: black;
+  background-color: #eee;
+}
+.post h1,
+.post .h1 {
+  color: inherit;
+}
+.post p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+.post > hr {
+  border-top-color: #d5d5d5;
 }
