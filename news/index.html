@@ -12,8 +12,6 @@ title: BUILDS - News
 			 <div class='row-fluid news-item'>
 			  <h3><a href="{{site.base}}{{post.url}}">{{ post.title }}</a></h3>
 			  <p class="author" style="font-size: 16px">
-
-			    
 			    <i style = "color: #cc2200;" class="fa fa-user"></i> {%if post.author %} {{post.author}} {%else%} BUILDS {%endif%} &nbsp; <i style = "color: #cc2200;" class="fa fa-calendar"></i> {{ post.date | date: "%m/%d/%Y"}}</span> 
 			  </p>
 			  <div class="content">
@@ -30,7 +28,7 @@ title: BUILDS - News
 		            {% endif %}
 		            <br/>
 		            <center>
-			            <a class="btn btn-danger btn-sm" href="{{site.base}}{{post.url}}">Read More</a>
+			            <a style = "margin-top: -30px" class="btn btn-danger btn-sm" href="{{site.base}}{{post.url}}#section">Read More</a>
 			        </center>
 			  </div>
 			 </div>
