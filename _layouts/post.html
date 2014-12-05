@@ -1,15 +1,15 @@
 ---
 layout: default
 ---
+
+<h2>{{ page.title }}</h2>
+<p class="meta">Posted at {{ page.date | date_to_string }} by {{ page.author }}</p>
+
+	{% if page.image_url %}
+	<center>
+		<img src="{{site.base}}{{page.image_url}}" class="thumbnail" style="width:auto;height:300px"/>
+	</center> <br />
+	{%endif %}
 <div class="post">
-
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
-
-  <article class="post-content">
-    {{ content }}
-  </article>
-
+{{ content }}
 </div>
