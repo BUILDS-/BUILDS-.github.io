@@ -26,7 +26,7 @@ title: BUILDS - Events
 		            {%  if post.content contains "<!-- more -->" %}
 		            	{{ post.content | split:"<!-- more -->" | first }}
 		            {% else %}
-		            	{{ post.content | strip_html | truncatewords:200 }} ...
+		            	{{ post.content | strip_html | truncatewords:200 }}
 		            {% endif %}
 		            <br/>
 		            <center>
