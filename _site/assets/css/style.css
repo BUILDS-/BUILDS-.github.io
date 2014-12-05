@@ -469,3 +469,7 @@ a {
     content: "\f0eb";
     margin:0 15px 0 -15px;
 }
+
+.jumbotron .content p{
+	font-size: 18px;
+}
