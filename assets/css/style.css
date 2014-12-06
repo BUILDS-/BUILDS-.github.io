@@ -12,8 +12,9 @@
 		line-height: 1.75em;
 	}
 
-	html, body {
+	body {
 		background: white;
+		width: 100%;
 		max-width: 100%;
 		overflow-x: hidden;
 	}
