@@ -1,20 +1,40 @@
 # Site settings
-# title: BUILDS
-# email: acm@bu.edu
-# description: > # this means to ignore newlines until "baseurl:"
-  # BUILDS is a student-run Boston University hackerspace
-# baseurl: "" # the subpath of your site, e.g. /blog/
-# url: "http://yourdomain.com" # the base hostname & protocol for your site
-# twitter_username: jekyllrb
-# github_username:  jekyll
+title: BUILDS
+email: acm@bu.edu
+description: Office of Undergraduate Hacking
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: EF5350 #80B3FF
+  secondary: 333 #FD6E8A
+  secondary-dark: 233140 #A2122F
+  
+header-image: url("img/bg.jpg")
+
+# Footer settings
+footer:
+  copyright: Dr. Henry Jekyll
+  location: Location
+  social: Around the Web
+  credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/_hackerspace
+  - title: facebook
+    url: https://www.facebook.com/groups/acmbuilds/
+  - title: github
+    url: https://github.com/BUILDS-
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 111 Cummington Mall, Room B26
+  - line: Boston, MA 02215
+  
+# Credits content
+credits: 'Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
-# markdown: kramdown
-
-name: BUILDS
-highlighter: true
-exclude: [README.md, _scripts, Gemfile, Gemfile.lock]
-plugins: ./_plugins
-base: "http://builds-.github.io"
-paginate_path: "events/page:num"
-paginate: 5
+markdown: kramdown
+permalink: pretty
