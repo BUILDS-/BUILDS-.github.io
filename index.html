@@ -1,72 +1,20 @@
 ---
 layout: default
-title: BUILDS - Home
 ---
 
-    <div style = "margin-top: -12px;" class="jumbotron">
-      <div class ="container">
-       <div class = "row">
-        <div style="margin-right: 30px; color: black; font-family: 'Noto Sans', sans-serif;" class="container marketing jumbotron well col-lg-7">
-            <h2>What is <span class='logo-red'>BU</span>ILDS?</h2>
-            <p style ="font-size: 18px;">BUILDS is a student-run hackerspace that provides BU students with all the tools and resources for leading collaborative student tech projects. We take the dirt and grit of the world and give it a shine. We're not led by a single purpose or mission, but we work on projects that are truly interesting to us. We're a self-motivated, skillful bunch who do what we love because we love it! 
-            <br></br>
-            In BUILDS, it's about the heart. Access is open to members 24 hours a day, 7 days a week. Swing by <span class='logo-red'>MCS B26</span> at Boston University to check out our hackerspace. Meetings are every Wednesday at 6:30 PM.</p>
-        </div>
-        <div class = "col-lg-4">
-          <div style="color: black; font-family: 'Noto Sans', sans-serif;" class="container marketing jumbotron well">
-              <h2>Contact us</h2>
-              <p style ="font-size: 18px;"><strong>Email:</strong><span class='logo-red'> acm@bu.edu</span></p>
-              <p style ="font-size: 18px;"><strong>Address:</strong> BUILDS <br>111 Cummington Mall, Room B26<br>Boston, MA 02215</p>
-              <h2 style = "margin-top: 50px; margin-bottom: 20px">Mailing List</h2>
-              <a class='btn btn-danger btn text-center' target="_blank" href="http://cs-mailman.bu.edu/mailman/listinfo/builds-list">Subscribe/Unsubscribe</a>
-              <p></p>
-          </div>
-        </div>
-       </div>
-      </div>
-      <div style="color: black; font-family: 'Noto Sans', sans-serif; font-size: 18px;" class ="container marketing jumbotron">
-        <hr style="margin-top: 15px" class="featurette-divider">
-        <h2>Recent Events</h2>
-        <br>
-          <div class="row">
-            <div class="col-lg-4">
-              <a href="http://www.bu.edu/cs/2014/10/23/builds-team-places-2nd-and-wins-10k-at-cyberseed-competition" target="_blank"><img class="featurette-image img-responsive" src="/assets/css/images/cyberseed.jpg" alt="CyberSeed 2014" style="border-radius: 50px; width: 350px; height: 200px;"></a>
-              <h2>CyberSeed 2014</h2>
-              <h4>UCONN, CT</h4>
-            </div>
-            <div class="col-lg-4">
-              <img class="featurette-image img-responsive" src="/assets/css/images/scc14.jpg" alt="SCC14" style="border-radius: 50px; width: 350px; height: 200px;">
-              <h2>Student Cluster Competition 2014</h2>
-              <h4>New Orleans, LA</h4>
-            </div>
-            <div class="col-lg-4">
-               <img class="featurette-image img-responsive" src="/assets/css/images/mitctf.jpg" alt="MIT CTF 2014" style="border-radius: 50px; width: 350px; height: 200px;">
-              <h2>MIT CTF 2014</h2>
-              <h4>Cambridge, MA</h4>
-            </div>
-          </div>
+<div class="home">
 
-          <hr class="featurette-divider">
+  <h1>Posts</h1>
 
-          <h2>Recent Projects</h2>
-          <br>
-          <div class="row">
-            <div class="col-lg-4">
-              <a href="https://www.paypal-community.com/t5/PayPal-Forward/BattleHack-Boston-Names-Team-BUtiful-Bois-as-its-Winning-App/ba-p/855947" target="_blank"><img class="featurette-image img-responsive" src="/assets/css/images/battlehack.jpg" alt="BattleHack Boston 2014" style="border-radius: 50px; width: 350px; height: 200px;"></a>
-              <h2>Canary - BattleHack Boston 2014</h2>
-              <h4>Boston, MA</h4>
-            </div>
-            <div class="col-lg-4">
-              <img class="featurette-image img-responsive" src="/assets/css/images/tangoude.jpg" alt="Tango" style="border-radius: 50px; width: 350px; height: 200px;">
-              <h2>Tango - UDE 2014</h2>
-              <h4>Boston, MA</h4>
-            </div>
-            <div class="col-lg-4">
-              <img class="featurette-image img-responsive" src="/assets/css/images/allanseanude.jpg" alt="Allan and Sean" style="border-radius: 50px; width: 350px; height: 200px;">
-              <h2>Allan and Sean - UDE 2014</h2>
-              <h4>Boston, MA</h4>
-            </div>
-          </div>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
 
-      </div>
-    </div>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
