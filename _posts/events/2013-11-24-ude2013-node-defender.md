@@ -5,7 +5,7 @@ modal-id: 5
 date:   2013-11-24 13:07:36
 author: "Chris Woodall"
 category: events
-image: /2013-11-24-ude2013-node-defender/banner.jpg
+image: events/2013-11-24-ude2013-node-defender/banner.jpg
 ---
 
 Winston Chen and [Huy Le](http://www.huyle.me/) attended the Ultimate Developer Event 2013 from November 20th to November 22nd and in the process won 1st and 2nd, respectively, for [Zumba Fitness's Node Defender][node-defender] game.

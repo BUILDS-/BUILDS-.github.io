@@ -5,7 +5,7 @@ modal-id: 1
 date:   2013-09-16 13:07:36
 author: "Chris Woodall"
 category: events
-image: /2013-09-16-python-ctf-crash-courses/banner.jpg
+image: events/2013-09-16-python-ctf-crash-courses/banner.jpg
 ---
 
 On September 13th and September 14th BUILDS hosted two introductory seminars:

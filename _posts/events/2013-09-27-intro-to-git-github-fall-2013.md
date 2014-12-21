@@ -5,7 +5,7 @@ modal-id: 4
 date:   2013-09-27 13:07:36
 author: "Chris Woodall"
 category: events
-image: /2013-09-27-intro-to-git-github-fall-2013/banner.jpg
+image: events/2013-09-27-intro-to-git-github-fall-2013/banner.jpg
 ---
 
 On Friday, September 27, 2013 BUILDS hosted a Intro to Git and Github workshop run by 

@@ -4,8 +4,8 @@ title:  Good Luck at CSAW 2013
 modal-id: 2
 date: 2013-09-19 13:07:36
 author: "Chris Woodall"
-category: events
-image: /2013-09-19-goodluck-csaw-2013/banner.jpg
+category: news
+image: news/2013-09-19-goodluck-csaw-2013/banner.jpg
 ---
 
 Starting at 6:00pm on Thursday, September 19 to 6:00pm on Sunday, September 22nd BUILDS

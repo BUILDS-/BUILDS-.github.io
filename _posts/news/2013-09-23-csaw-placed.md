@@ -4,8 +4,8 @@ title:  BUILDS Has Qualified for CSAW Finals
 modal-id: 3
 date:   2013-09-23 13:07:36
 author: "Chris Woodall and Danny Cooper"
-category: events
-image: /2013-09-23-csaw-placed/banner.jpg
+category: news
+image: news/2013-09-23-csaw-placed/banner.jpg
 ---
 
 BUILDS has qualified for the finals of NYU-Poly's [CSAW](https://csaw.isis.poly.edu/)  (Cyber-Security Awareness

@@ -5,7 +5,7 @@ modal-id: 6
 date:   2014-01-28 13:07:36
 author: "Huy Le"
 category: events
-image: /2014-01-28-mhack-nest-labs-project/banner.jpg
+image: events/2014-01-28-mhack-nest-labs-project/banner.jpg
 ---
 
 Winston Chen and Huy Le attended [MHacks III](http://www.mhacks.org/), hosted by University of Michigan, Ann Arbor, on January 17-19, 2014 in downtown Detroit. With sponsors such as Apple, Bloomberg, and many more, as well as programmers from various colleges across North America, they were up against some of the best talent across to claim the grand prize. [Here](https://mail.google.com/mail/u/0/?shva=1#143d9f9b63cff7a6_mhackswinter2014.challengepost.com) are all of the projects.
