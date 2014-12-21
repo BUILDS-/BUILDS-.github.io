@@ -5,8 +5,8 @@ description: Office of Undergraduate Hacking
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: EF5350 #80B3FF
-  secondary: 212121 #FD6E8A
+  primary: EF5350 #red
+  secondary: 212121 #black
   
 header-image: url("img/bg.jpg")
 

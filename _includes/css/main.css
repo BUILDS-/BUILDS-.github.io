@@ -31,7 +31,6 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
@@ -190,11 +189,6 @@ section h2 {
     font-size: 3em;
 }
 
-section.success {
-    color: #fff;
-    background: #{{ site.color.primary }};
-}
-
 section.intro {
     color: #333;
 }
@@ -212,13 +206,16 @@ section.intro {
 .portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
+    text-align: center;
 }
 
 .portfolio .portfolio-item .portfolio-link {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 400px;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
 }
 
 .portfolio .portfolio-item .portfolio-link .caption {
@@ -261,8 +258,43 @@ section.intro {
 
 @media(min-width:767px) {
     .portfolio .portfolio-item {
-        margin: 0 0 30px;
     }
+}
+
+#events {
+    color: #fff;
+    background: #26A69A;
+}
+
+#events .portfolio-item {
+    border-bottom: #009688 2px dashed;
+}
+
+#events .portfolio-item:hover {
+    border-bottom: #fff 2px dashed;
+}
+
+#events hr.star-light:after {
+    color: #fff;
+    background-color: #26A69A;
+}
+
+#news {
+    color: #fff;
+    background: #FFB74D;
+}
+
+#news .portfolio-item {
+    border-bottom: #FF9800 2px dashed;
+}
+
+#news .portfolio-item:hover {
+    border-bottom: #fff 2px dashed;
+}
+
+#news hr.star-light:after {
+    color: #fff;
+    background-color: #FFB74D;
 }
 
 .btn-outline {
@@ -460,4 +492,15 @@ footer .footer-below {
 
 .portfolio-modal .modal-post-content {
     text-align: left;
+}
+
+.list-inline>li {
+    margin: 10px 20px;
+}
+
+.modal-post-meta {
+    display: inline;
+    margin-left: 5px;
+    font-weight: bold;
+    color: #{{ site.color.primary }};
 }
