@@ -447,3 +447,7 @@ footer .footer-below {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+
+.portfolio-modal .modal-post-content {
+    text-align: left;
+}
