@@ -14,20 +14,21 @@
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
                             <hr class="star-primary">
-                            <img src="img/events/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                            <p>{{ post.description }}</p>
+                            {% if post.image %}
+                                <img src="img/{{ post.image }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            {% endif %}
+                            <div class="modal-post-content">
+                                <p>{{ post.content }}</p>
+                            </div>
                             <ul class="list-inline item-details">
                                 <li>Author:
-                                    <strong><a href="http://startbootstrap.com">{{ post.author }}</a>
-                                    </strong>
+                                    <strong>{{ post.author }}</strong>
                                 </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">{{ post.date }}</a>
-                                    </strong>
+                                    <strong>{{ post.date }}</strong>
                                 </li>
                                 <li>Category:
-                                    <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
-                                    </strong>
+                                    <strong>{{ post.category }}</strong>
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>

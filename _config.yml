@@ -13,10 +13,10 @@ header-image: url("img/bg.jpg")
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
+  copyright: BUILDS 2014
+  poweredby: <a href="http://startbootstrap.com">Start Bootstrap</a> and <a href="http://jekyllrb.com">jekyll</a>
   location: Location
   social: Around the Web
-  credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -31,9 +31,6 @@ social:
 address:
   - line: 111 Cummington Mall, Room B26
   - line: Boston, MA 02215
-  
-# Credits content
-credits: 'Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown
