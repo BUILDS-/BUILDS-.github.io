@@ -107,6 +107,10 @@ header .intro-text .skills {
     font-weight: 300;
 }
 
+.red-logo {
+    color: #E53935;
+}
+
 @media(min-width:768px) {
     header .container {
         padding-top: 200px;
