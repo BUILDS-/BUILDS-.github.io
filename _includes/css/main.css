@@ -168,6 +168,17 @@ header .intro-text .skills {
 .navbar-default,
 .navbar-inverse {
     border: 0;
+    background-color: #{{ site.color.secondary }};
+}
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:hover, 
+.navbar-default .navbar-nav>.active>a:focus {
+    background-color: #{{ site.color.secondary }};
+}
+
+.navbar-default .navbar-nav>.active>a{
+    color: #{{ site.color.primary }};
 }
 
 section {
@@ -348,7 +359,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #{{ site.color.secondary-dark }};
+    background-color: #455A64;
 }
 
 .btn-social {
