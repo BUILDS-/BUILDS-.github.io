@@ -3,7 +3,7 @@
         <div class="footer-above">
             <div class="container">
                 <div class="row">
-                    <div class="footer-col col-md-6">
+                    <div class="footer-col col-md-4">
                         <h3>{{ site.footer.location }}</h3>
                         <p>
                             {% for adress in site.address %}
@@ -11,7 +11,7 @@
 		                    {% endfor %}
                         </p>
                     </div>
-                    <div class="footer-col col-md-6">
+                    <div class="footer-col col-md-4">
                         <h3>{{ site.footer.social }}</h3>
                         <ul class="list-inline">
                             {% for network in site.social %}
@@ -20,6 +20,11 @@
                             </li>
 		                    {% endfor %}
                         </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Subscribe</h3>
+                        <p><a href="http://cs-mailman.bu.edu/mailman/listinfo/builds-list" target="_blank">Join Mailing List</a><p>
+                        <p>The BUILDS mailing list is <em>builds-list@cs.bu.edu</em> and is hosted on CS IT's mailman server.</p>
                     </div>
                 </div>
             </div>
