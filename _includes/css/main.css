@@ -31,7 +31,6 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
@@ -108,6 +107,10 @@ header .intro-text .skills {
     font-weight: 300;
 }
 
+.red-logo {
+    color: #E53935;
+}
+
 @media(min-width:768px) {
     header .container {
         padding-top: 200px;
@@ -168,6 +171,17 @@ header .intro-text .skills {
 .navbar-default,
 .navbar-inverse {
     border: 0;
+    background-color: #{{ site.color.secondary }};
+}
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:hover, 
+.navbar-default .navbar-nav>.active>a:focus {
+    background-color: #{{ site.color.secondary }};
+}
+
+.navbar-default .navbar-nav>.active>a{
+    color: #{{ site.color.primary }};
 }
 
 section {
@@ -177,11 +191,6 @@ section {
 section h2 {
     margin: 0;
     font-size: 3em;
-}
-
-section.success {
-    color: #fff;
-    background: #{{ site.color.primary }};
 }
 
 section.intro {
@@ -201,13 +210,16 @@ section.intro {
 .portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
+    text-align: center;
 }
 
 .portfolio .portfolio-item .portfolio-link {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 400px;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
 }
 
 .portfolio .portfolio-item .portfolio-link .caption {
@@ -215,7 +227,6 @@ section.intro {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(24,188,156,.9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -251,8 +262,43 @@ section.intro {
 
 @media(min-width:767px) {
     .portfolio .portfolio-item {
-        margin: 0 0 30px;
     }
+}
+
+#events {
+    color: #fff;
+    background: #26A69A;
+}
+
+#events .portfolio-item {
+    border-bottom: #009688 2px dashed;
+}
+
+#events .portfolio-item:hover {
+    border-bottom: #fff 2px dashed;
+}
+
+#events hr.star-light:after {
+    color: #fff;
+    background-color: #26A69A;
+}
+
+#news {
+    color: #fff;
+    background: #FFB74D;
+}
+
+#news .portfolio-item {
+    border-bottom: #FF9800 2px dashed;
+}
+
+#news .portfolio-item:hover {
+    border-bottom: #fff 2px dashed;
+}
+
+#news hr.star-light:after {
+    color: #fff;
+    background-color: #FFB74D;
 }
 
 .btn-outline {
@@ -348,7 +394,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #{{ site.color.secondary-dark }};
+    background-color: #455A64;
 }
 
 .btn-social {
@@ -450,4 +496,15 @@ footer .footer-below {
 
 .portfolio-modal .modal-post-content {
     text-align: left;
+}
+
+.portfolio-modal .list-inline>li {
+    margin: 10px 20px;
+}
+
+.modal-post-meta {
+    display: inline;
+    margin-left: 5px;
+    font-weight: bold;
+    color: #{{ site.color.primary }};
 }
