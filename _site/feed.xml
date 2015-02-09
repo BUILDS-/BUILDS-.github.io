@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
-    <description></description>
+    <title>BUILDS</title>
+    <description>Office of Undergraduate Hacking</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 06 Dec 2014 15:36:37 -0500</pubDate>
-    <lastBuildDate>Sat, 06 Dec 2014 15:36:37 -0500</lastBuildDate>
+    <pubDate>Mon, 09 Feb 2015 11:53:43 -0500</pubDate>
+    <lastBuildDate>Mon, 09 Feb 2015 11:53:43 -0500</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
     
       <item>
@@ -21,8 +21,8 @@ need people to test the problems. &lt;/p&gt;
 &lt;!-- more --&gt;
 </description>
         <pubDate>Fri, 05 Dec 2014 00:00:00 -0500</pubDate>
-        <link>/upcomingevents/2014/12/05/boston-key-party-2015-preparations.html</link>
-        <guid isPermaLink="true">/upcomingevents/2014/12/05/boston-key-party-2015-preparations.html</guid>
+        <link>/upcomingevents/2014/12/05/boston-key-party-2015-preparations/</link>
+        <guid isPermaLink="true">/upcomingevents/2014/12/05/boston-key-party-2015-preparations/</guid>
         
         <category>front</category>
         
