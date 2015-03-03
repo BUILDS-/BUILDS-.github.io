@@ -21,4 +21,5 @@
 		background-size: 1500px auto;
 		width: 4500px;
 		overflow-x: hidden;
+		overflow-y: visible;
 	}
