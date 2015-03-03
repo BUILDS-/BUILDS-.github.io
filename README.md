@@ -1,4 +1,4 @@
 BUILDS-.github.io
 =================
 
-Creating the new site for BUILDS. The site breaks on mobile though. Help me fix the scrolling issue!
+A new era for BUILDS. 2014 - 2015 under Allan Wirth's administration, Huy Le created this webpage for BUILDS.
