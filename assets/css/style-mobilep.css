@@ -13,6 +13,7 @@
 
 	#bg {
 		background-size: 412.5px auto;
+		overflow-x: visible;
 		width: 1237.5px;
 	}
 	
