@@ -3,6 +3,10 @@
 
 /* Basic */
 
+	html{
+		overflow-x: hidden;
+	}
+
 	body, input, select, textarea {
 		color: white;
 		font-family: 'Source Sans Pro', sans-serif;
