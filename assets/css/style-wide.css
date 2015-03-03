@@ -6,13 +6,8 @@
 
 /* Basic */
 
-	html{
-		overflow-x: hidden;
-	}
-
 	body, input, select, textarea {
 		font-size: 13pt;
-		overflow-x: hidden;
 	}
 
 /* BG */
