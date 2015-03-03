@@ -3,7 +3,7 @@ layout: post
 title:  "Meeting Minutes"
 date:   2014-12-05
 author: "Allan Wirth"
-categories: upcomingevents
+categories: meetingminutes
 tag: front
 ---
 
