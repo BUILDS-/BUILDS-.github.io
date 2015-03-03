@@ -3,7 +3,7 @@ layout: post
 title:  "Boston Key Party 2015 Preparation"
 date:   2014-12-05
 author: "Allan Wirth"
-categories: upcomingevents
+categories: events
 tag: front
 ---
 
