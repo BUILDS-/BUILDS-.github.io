@@ -15,8 +15,6 @@
 	body {
 		background: white;
 		max-width: 100%;
-		overflow-x: hidden;
-		overflow-y: visible;
 	}
 
 		body.loading * {
@@ -117,8 +115,6 @@
 	#bg {
 		background-size: 2250px auto;
 		width: 6750px;
-		overflow-x: hidden;
-		overflow-y: visible;
 	}
 
 /* Overlay */
