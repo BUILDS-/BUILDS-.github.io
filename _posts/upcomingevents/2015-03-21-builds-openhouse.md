@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "BUILDS Open House 2015"
-date:   2014-03-21
+date:   2015-03-21
 author: "Huy Le"
 categories: events
 image_url: /assets/css/images/buildsopenhouse.png
