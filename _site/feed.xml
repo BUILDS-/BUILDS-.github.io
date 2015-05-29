@@ -1,13 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>BUILDS</title>
-    <description>Office of Undergraduate Hacking</description>
+    <title></title>
+    <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 09 Feb 2015 11:53:43 -0500</pubDate>
-    <lastBuildDate>Mon, 09 Feb 2015 11:53:43 -0500</lastBuildDate>
-    <generator>Jekyll v2.5.2</generator>
+    <pubDate>Fri, 29 May 2015 13:21:23 -0400</pubDate>
+    <lastBuildDate>Fri, 29 May 2015 13:21:23 -0400</lastBuildDate>
+    <generator>Jekyll v2.5.1</generator>
+    
+      <item>
+        <title>BUILDS Open House 2015</title>
+        <description>&lt;p&gt;What have you made this year?&lt;/p&gt;
+
+&lt;p&gt;BUILDS is BU’s makerspace club where we work together on cool projects. And BUILDS would not be BUILDS if we did not make things! &lt;/p&gt;
+
+&lt;p&gt;On April 15, 6:30 - 8:00 PM (MCS B26), the BUILDS Open House will be a university project showcase event to celebrate the ingenuity of student projects.&lt;/p&gt;
+
+&lt;p&gt;Do you have a side project you want to show off, whether it be code, robot, tech-inspired art, or any wonderful burst of unbridled creativity?&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;Fill out this spreadsheet, and we’ll grab you a table for you to showcase your project at our expo event.&lt;/p&gt;
+
+&lt;p&gt;https://docs.google.com/forms/d/1BjdlJkkRMzIZQDLCRizvgiG6UkJ0vC7v06X6IUuweB0/viewform&lt;/p&gt;
+
+&lt;p&gt;The event will be in the basement of MCS room B26 and B33. There’ll be lots of food!&lt;/p&gt;
+
+&lt;p&gt;Come, network, tour the BUILDS room, talk, eat, and check out the cool side projects at BU on April 15, 6:30 - 8:00 PM.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 21 Mar 2015 00:00:00 -0400</pubDate>
+        <link>/events/2015/03/21/builds-openhouse.html</link>
+        <guid isPermaLink="true">/events/2015/03/21/builds-openhouse.html</guid>
+        
+        <category>front</category>
+        
+        
+        <category>events</category>
+        
+      </item>
     
       <item>
         <title>Boston Key Party 2015 Preparation</title>
@@ -21,13 +52,13 @@ need people to test the problems. &lt;/p&gt;
 &lt;!-- more --&gt;
 </description>
         <pubDate>Fri, 05 Dec 2014 00:00:00 -0500</pubDate>
-        <link>/upcomingevents/2014/12/05/boston-key-party-2015-preparations/</link>
-        <guid isPermaLink="true">/upcomingevents/2014/12/05/boston-key-party-2015-preparations/</guid>
+        <link>/events/2014/12/05/boston-key-party-2015-preparations.html</link>
+        <guid isPermaLink="true">/events/2014/12/05/boston-key-party-2015-preparations.html</guid>
         
         <category>front</category>
         
         
-        <category>upcomingevents</category>
+        <category>events</category>
         
       </item>
     

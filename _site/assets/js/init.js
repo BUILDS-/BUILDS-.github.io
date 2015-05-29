@@ -10,8 +10,8 @@
 		reset: 'full',
 		breakpoints: {
 			'global': { range: '*', href: '/assets/css/style.css', viewport: { scalable: false } },
-			'wide': { range: '-1680', href: '/assets/css/style-wide.css' },
-			/* 'normal': { range: '-1280', href: '/assets/css/style-normal.css' },
+			'wide': { range: '-1680', href: '/assets/css/style-wide.css' }
+			/* 'normal': { range: '-1280', href: '/assets/css/style-normal.css' }, 
 			'mobile': { range: '-736', href: '/assets/css/style-mobile.css' },
 			'mobilep': { range: '-480', href: '/assets/css/style-mobilep.css' } */
 		}
@@ -24,9 +24,9 @@
 				document.body.className = '';
 			}
 
-		// Prevent scrolling on touch.
+		// Prevent scrolling on touch. RESTORED SCROLLING!
 			window.ontouchmove = function() {
-				return false;
+				return true;
 			}
 
 		// Fix scroll position on orientation change.

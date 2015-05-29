@@ -425,6 +425,33 @@ a {
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
+.box {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .box {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .box {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .box {
+    width: 1170px;
+  }
+}
+.box-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 @media (min-width: 768px) {
   /* Navbar positioning foo */
