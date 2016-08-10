@@ -12,7 +12,7 @@
 # markdown: kramdown
 
 name: BUILDS
-pygments: true
+highlighter: rouge
 exclude: [README.md, _scripts, Gemfile, Gemfile.lock]
 plugins: ./_plugins
 base: "http://builds.cc"
