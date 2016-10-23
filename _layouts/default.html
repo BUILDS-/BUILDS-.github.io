@@ -14,6 +14,7 @@
     <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/assets/css/bootstrap.css" />
     <link rel="shortcut icon" href="/assets/css/images/favicon.png">
+    <link href="/assets/css/lightbox.css" rel="stylesheet">
     <noscript>
       <link rel="stylesheet" href="/assets/css/skel.css" />
       <link rel="stylesheet" href="/assets/css/style.css" />
@@ -76,13 +77,15 @@
 
     <div style = "margin-top: -30px; margin-bottom: -30px" class = "navbar navbar-inverse">
       <div class = "box">
-          <p class = "navbar-text pull-left">&copy; 2015 - BUILDS</a></p>
-          <a target="_blank" href = "https://www.google.com/maps/place/111+Cummington+Mall,+Boston+University,+Boston,+MA+02215"style = "margin-top: 15px" class = "btn btn-danger pull-right">Location</a>
+          <p class = "navbar-text pull-left">&copy; 2016 - BUILDS</a></p>
+          <a target="_blank" href = "https://goo.gl/maps/w2HDAkMWEyC2"style = "margin-top: 15px" class = "btn btn-danger pull-right">Location</a>
       </div>
     </div>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/lightbox.min.js"></script>
+
     <script>
       var jump=function(e)
       {
@@ -95,7 +98,7 @@
          $('html,body').animate(
          {
              scrollTop: $(target).offset().top
-         },300,function()
+         },0,function()
          {
              location.hash = target;
          });
