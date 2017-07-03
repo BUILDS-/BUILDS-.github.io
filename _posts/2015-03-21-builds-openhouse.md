@@ -20,7 +20,7 @@ Do you have a side project you want to show off, whether it be code, robot, tech
 
 Fill out this spreadsheet, and we'll grab you a table for you to showcase your project at our expo event.
 
-[https://docs.google.com/forms/d/1BjdlJkkRMzIZQDLCRizvgiG6UkJ0vC7v06X6IUuweB0/viewform](https://docs.google.com/forms/d/1BjdlJkkRMzIZQDLCRizvgiG6UkJ0vC7v06X6IUuweB0/viewform)
+[https://goo.gl/XyJS5L](https://goo.gl/XyJS5L)
 
 The event will be in the basement of MCS room B26 and B33. There'll be lots of food!
 
