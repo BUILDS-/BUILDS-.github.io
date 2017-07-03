@@ -4,6 +4,9 @@ permalink: "acknowledgements/index.html"
 layout: default
 ---
 
+<link rel="stylesheet" href="{{ "/public/stylesheets/game.css" | prepend:site.baseurl }}">
+<script src="{{ "/public/javascripts/game.js" | prepend:site.baseurl }}"></script>
+
 <div class="resume row">
 	<div class="col-md-12">
 		<div id="about_me">
@@ -21,6 +24,16 @@ layout: default
 	      	</div>
 	      	<br>
 	      	<p>{{site.data.acknowledgements_2.text | markdownify }}</p>
+            <div class="container">
+                <canvas id="c"></canvas>
+                <div id=options class=closed>
+                <p><span>rotVel</span><span><input type=range id=rotVel_input min=0 max=.1 value=.01 step=.002 /></span>
+                <p><span>zoom</span><span><input type=range id=zoom_input min=.1 max=5 value=1 step=.1 /></span>
+                <p><span>showDots</span><span><input type=checkbox id=showDots_input /></span>
+                <p id=toggle_options>close/open options</p>
+                </div>
+                <p id=instruction>Use your arrow keys</p>
+            </div>
     	</div>
 	</div>
 </div>
