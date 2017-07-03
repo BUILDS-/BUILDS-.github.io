@@ -20,8 +20,9 @@ body {
 
 /* Custom page header */
 .header {
-  padding-bottom: 1rem;
-  border-bottom: .05rem solid #e5e5e5;
+  /* padding-bottom: 1rem; */
+  /* border-bottom: .05rem solid #e5e5e5; */
+  border-bottom: .05rem solid #49B1F7;
 }
 /* Make the masthead heading the same height as the navigation */
 .header h3 {
@@ -131,7 +132,7 @@ body {
 
   .panel {
     width: 350px;
-    margin: -170px 0 0 -175px;
+    margin: -150px 0 0 -175px;
   }
 }
 
@@ -143,14 +144,26 @@ body {
 }
 
 /**
+ * Overwrite styling of navigation bar.
+ */
+.navbar-inverse .navbar-nav .nav-link {
+  color: #49B1F7;
+}
+
+.navbar-inverse a:hover {
+  color: #EC4E3B;
+}
+
+/**
  * Social media was a little bit too high. I wanted it to be the gray color and hover as orange.
  */
 .social {
-    margin-top: 17px;
+  margin-top: 22px;
+  margin-bottom: 0.5rem;
 }
 
 .social .social-icons {
-  color: rgba(255, 255, 255, 0.5);
+  color: white;
 }
 
 .social a:hover {
