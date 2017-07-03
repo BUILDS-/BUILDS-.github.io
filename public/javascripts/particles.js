@@ -11,7 +11,8 @@ var pJS = function(tag_id, params){
 
   var canvas_el = document.querySelector('#'+tag_id+' > .particles-js-canvas-el');
 
-  /* particles.js variables with default values */
+  /* particles.js variables with default values.
+   * These values are actually controlled by app.js in this folder. Look at that instead. */
   this.pJS = {
     canvas: {
       el: canvas_el,

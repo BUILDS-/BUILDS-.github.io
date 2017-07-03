@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+  <!-- Instead of including from the default theme layouts, I made home.html be custom just for the index.html page.-->
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,12 +10,15 @@
     <meta name="author" content="BUILDS">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
     <!--
+      These stylings are used for the theme, but I didn't need them for the front page.
       <link rel="stylesheet" href="{{ "/public/stylesheets/bs.css" | prepend:site.baseurl }}">
       <link rel="stylesheet" href="{{"/public/stylesheets/styles.css" | prepend:site.baseurl }}">
     -->
     <link rel="stylesheet" href="{{ "/public/stylesheets/bootstrap.css" | prepend:site.baseurl }}">
     <link rel="stylesheet" href="{{ "/public/stylesheets/particles.css" | prepend:site.baseurl }}">
+    <!-- home.css is used for those miscellaneous style additions. -->
     <link rel="stylesheet" href="{{ "/public/stylesheets/home.css" | prepend:site.baseurl }}">
+    <!-- Lightbox makes popping up images cool. -->
     <link rel="stylesheet" href="{{ "/public/stylesheets/ekko-lightbox.min.css" | prepend:site.baseurl }}">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
@@ -49,8 +53,9 @@
                 <a class="nav-link" href="/acknowledgements">Acknowledgements</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">git involved</a>
+                <a class="nav-link dropdown-toggle" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">git involved</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown03">
+                  <h6 class="color-red dropdown-header">Friends</h6>
                   <a class="dropdown-item" target="_blank" href="https://bostonhacks.io">BostonHacks</a>
                   <a class="dropdown-item" target="_blank" href="https://0xbu.com">0xBU</a>
                   <a class="dropdown-item" target="_blank" href="http://bostonkeyparty.net">Boston Key Party</a>
@@ -71,6 +76,7 @@
       </div>
     </div>
 
+    <!-- Floating panel in the middle of the particles -->
     <div class="panel" style="display: block;">
       <h1 class="title-card text-center">What is <span class="color-red">BU</span>ILDS?</h1>
       <br>
@@ -85,6 +91,7 @@
       </a>
     </div>
 
+    <!-- Particles from the index.html. There's an id that the particls.js script uses.-->
     {{ content }}
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->

@@ -84,14 +84,16 @@ body {
   }
 }
 
+/**
+ * This is the orange color of the theme.
+ */
 .color-red {
   color: #EC4E3B;
 }
 
 /**
- * This panel controls the overlaid panel over the particles effect.
+ * This panel controls the overlaid panel over the particles effect. What is BUILDS? sign.
  */
-
 .panel {
   font-size: 1.25em;
   position: absolute;
@@ -112,11 +114,16 @@ body {
   font-size: 1.35em;
 }
 
+/**
+ * I wanted the container to pop over the panel in case for some reason, the panel margin was incorrect. Container visible priority.
+ */
 .container {
   z-index: 101;
 }
 
-/* Navigation Bar */
+/*
+ * Navigation Bar had a weird margin for navbar, so for widths at 991px, I fixed it along with repositioning the panel.
+ */
 @media (max-width: 991px) {
   .navbar-brand {
     margin-top: 10px;
@@ -127,16 +134,25 @@ body {
   }
 }
 
+/**
+ * Panel repositioning to fix the What is BUILDS? position when height is small.
+ */
 @media (max-height: 630px) {
   .panel {
     margin: -100px 0 0 -200px;
   }
 }
 
+/**
+ * I did this to make the entire nav bar black and blend in with the background.
+ */
 .bg-inverse {
   background-color: #111 !important;
 }
 
+/**
+ * Social media was a little bit too high. I wanted it to be the gray color and hover as orange.
+ */
 .social {
     margin-top: 17px;
 }
