@@ -169,3 +169,10 @@ body {
 .social a:hover {
   color: #EC4E3B;
 }
+
+/**
+ * Styling the footer on the main page.
+ */
+.footer {
+  z-index: 101;
+}
