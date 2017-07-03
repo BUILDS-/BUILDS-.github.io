@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ "/public/stylesheets/game.css" | prepend:site.baseurl }}">
-    <script src="{{ "/public/javascripts/game.js" | prepend:site.baseurl }}"></script>
     <link rel="icon" type="image/x-icon"  href="{{ "/favicon.png" | prepend:site.baseurl }}" />
     <title>{% if page.title %}{{ page.title }} | {% endif %}BU{{ site.title }}</title>
     <!--[if lt IE 9]>
@@ -25,6 +24,7 @@
     </div>
     <p id=instruction>Use your arrow keys</p>
 
+    <script src="{{ "/public/javascripts/game.js" | prepend:site.baseurl }}"></script>
     <!-- Google Analytics -->
     {% include scripts.html %}
 
