@@ -136,15 +136,6 @@ body {
 }
 
 /**
- * Panel repositioning to fix the What is BUILDS? position when height is small.
- */
-@media (max-height: 630px) {
-  .panel {
-    margin: -100px 0 0 -200px;
-  }
-}
-
-/**
  * I did this to make the entire nav bar black and blend in with the background.
  */
 .bg-inverse {
