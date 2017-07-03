@@ -232,7 +232,11 @@ mark, .mark {
   color: #EC4E3B;
 }
 
-#header a:hover {
+section #header a#sitename:hover {
+  color: #EC4E3B; 
+}
+
+.color-white:hover {
   color: #EC4E3B; 
 }
 
