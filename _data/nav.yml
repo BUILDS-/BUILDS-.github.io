@@ -4,7 +4,7 @@ items:
     path: '/about'
   - text: 'News'
     path: '/news'
-  - text: 'Thanks'
+  - text: 'Acknowledgements'
     path: '/acknowledgements'
   - text: 'Archive'
     path: '/archive'
