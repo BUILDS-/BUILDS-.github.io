@@ -49,3 +49,12 @@ p#instruction {
 .game {
     margin-bottom: 400px;
 }
+
+/*
+ * Disappear the game if the width is too big.
+ */
+@media (max-width: 709px) {
+    .game {
+        display: none;  
+    }
+}
