@@ -1,6 +1,6 @@
 var c = document.getElementById("c"),
-	w = (c.width = window.innerWidth),
-	h = (c.height = window.innerHeight),
+	w = (c.width = 710),
+	h = (c.height = 400),
 	ctx = c.getContext("2d"),
 	opts = {
 		rotVel: 0.01,

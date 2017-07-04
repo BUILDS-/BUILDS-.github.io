@@ -36,10 +36,16 @@ div#options > p:last-child {
 }
 p#instruction {
     position: absolute;
-    bottom: 0;
+    bottom: -65px;
     width: 300px;
     left: calc( 50% - 150px );
     color: rgb(0,255,0);
     font-family: monospace;
     text-align: center;
+}
+/*
+ * Move the game's bottom margin down a bit to include the footer.
+ */
+.game {
+    margin-bottom: 400px;
 }

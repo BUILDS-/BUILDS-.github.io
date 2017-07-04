@@ -8,6 +8,7 @@
     <meta name="description" content="BUILDS is a student-run hackerspace that provides students with tools and resources for working on collaborative projects." />
     <meta name="keywords" content="Boston University ACM Hackerspace" />
     <meta name="author" content="BUILDS">
+
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
     <!--
       These stylings are used for the theme, but I didn't need them for the front page.
@@ -18,9 +19,12 @@
     <link rel="stylesheet" href="{{ "/public/stylesheets/particles.css" | prepend:site.baseurl }}">
     <!-- home.css is used for those miscellaneous style additions. -->
     <link rel="stylesheet" href="{{ "/public/stylesheets/home.css" | prepend:site.baseurl }}">
+    <!-- Used to toggle the music -->
+    <link rel="stylesheet" href="{{ "/public/stylesheets/equalizer.css" | prepend:site.baseurl }}">
     <!-- Lightbox makes popping up images cool. -->
     <link rel="stylesheet" href="{{ "/public/stylesheets/ekko-lightbox.min.css" | prepend:site.baseurl }}">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="icon" type="image/x-icon"  href="{{ "/favicon.png" | prepend:site.baseurl }}" />
     <title>{% if page.title %}{{ page.title }} | {% endif %}BU{{ site.title }}</title>
@@ -97,8 +101,20 @@
     <!-- Custom footer for the front page. -->
     <footer class="footer">
         <div class="container">
-            <div class="pull-left">
-                &copy; {{ site.time | date:"%Y" }}
+            <div class="text-center">
+              <div class="bar-c">
+                <div id="bar-1" class="bar"></div>
+                <div id="bar-2" class="bar"></div>
+                <div id="bar-3" class="bar"></div>
+                <div id="bar-4" class="bar"></div>
+                <div id="bar-5" class="bar"></div>
+                <div id="bar-6" class="bar"></div>
+              </div>
+              <audio id="background_audio" autoplay loop>
+                <source src="{{ "/public/music/national_park.mp3" }}" type="audio/mpeg">
+              </audio>
+              <br>
+              <a href="#noscroll" id="mute">Toggle Music</a>
             </div>
         </div>
     </footer>
@@ -110,6 +126,8 @@
     <script src="{{ "/public/javascripts/particles.js" | prepend:site.baseurl }}"></script>
     <script src="{{ "/public/javascripts/app.js" | prepend:site.baseurl }}"></script>
     <script src="{{ "/public/javascripts/home.js" | prepend:site.baseurl }}"></script>
+    <!-- Used to toggle the music. Mute and unmute. -->
+    <script src="{{ "/public/javascripts/mute.js" | prepend:site.baseurl }}"></script>
     <script src="{{ "/public/javascripts/ekko-lightbox.min.js" | prepend:site.baseurl }}"></script>
 
     <!-- Google Analytics -->
