@@ -55,6 +55,7 @@ p#instruction {
  */
 @media (max-width: 709px) {
     .game {
+        margin-bottom: 0px;
         display: none;  
     }
 }
