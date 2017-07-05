@@ -1,3 +1,7 @@
+/*
+ * game.scss is only used for acknowledgements page for the game
+ * at the bottom of the page.
+ */
 canvas {
     position: absolute;
     top: 0;
@@ -55,7 +59,9 @@ p#instruction {
  */
 @media (max-width: 709px) {
     .game {
-        margin-bottom: 0px;
         display: none;  
+    }
+    #about_me {
+        margin-bottom: -150px;
     }
 }
