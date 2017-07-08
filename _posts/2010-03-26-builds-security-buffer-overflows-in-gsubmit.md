@@ -10,6 +10,7 @@ tag: [projects]
 
 In mid February, BUILDS found a Buffer Overflow exploit in gsubmit, an assignment submission tool actively used in the Boston University Computer Science Department. Upon discovering the vulnerability and authoring a proof of concept exploit, the CS Department and Lab Administrators were made aware of the problem. A new version of gsubmit which fixed these problems was installed on March 19, 2010, the day that BUILDS presented a poster and demo on this topic at the BU Computer Science Research Open House [[1](http://www.cs.bu.edu/IAP/ResearchDay2010/)].
 
+[Paper](http://builds.cc/public/docs/BUILDS_gsubmit_paper.pdf)
 
 ### Low Hanging Fruit
 

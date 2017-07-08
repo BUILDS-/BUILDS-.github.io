@@ -12,7 +12,7 @@ In mid February, BUILDS found a Buffer Overflow exploit in gsubmit, an assignmen
 In the course of this project, work started on developing a tool that can statically analyze an ELF binary object for potential security vulnerabilities. Dubbed “Low Hanging Fruit”, this tool aims to discover possible problems in the binary, such as unchecked buffers, potentially dangerous library calls (such as the system() function), format string exploit attack vectors, etc. Development is ongoing, using the libelf and libdisasm libraries.
 
 
-Submitted poster (with a full writeup of the hack)
+[Submitted poster](http://builds.cc/public/docs/BUILDS_gsubmit_paper.pdf) (with a full writeup of the hack)
 
 
 Project contact: Kyle Brogle
