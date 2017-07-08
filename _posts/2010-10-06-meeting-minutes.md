@@ -1,6 +1,6 @@
 ---
-title:  "Meeting Minutes for 2010-09-29"
-date:   2010-09-29
+title:  "Meeting Minutes for 2010-10-06"
+date:   2010-10-06
 author: "buildscc"
 permalink: /news/:year/:month/:day/:title/
 tag: [meeting-minutes]
