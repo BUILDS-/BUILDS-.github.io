@@ -1,5 +1,5 @@
 ---
-title:  "BU_Reuse_System"
+title:  "BU Reuse System"
 date:   2010-07-28
 author: "buildscc"
 permalink: /news/:year/:month/:day/:title/
