@@ -57,8 +57,8 @@ REMEMBER: Do this in a well ventilated area!
 ### Results
 
 Resistance Measurements
-| Trial 1 | Trial 2	| Trial 3 | Trial 4 | Trial 5 |
-| ------- | ------- | ------- | ------- | ------- |
+| Trial 1  | Trial 2	    | Trial 3       | Trial 4    | Trial 5    |
+| -------- | -------------- | ------------- | ---------- | ---------- |
 | Overload | 284.1 kOhm/in. | 14.4 kOhm/in. | 5 kOhm/in. | 1 kOhm/in. |
 
 The different trials are the same mix with more graphite added. Not a whole lot of measurement was taken, but as a proof of concept this was very effective.

@@ -18,7 +18,9 @@ allow-hotplug eth0 iface eth0 inet static address 128.197.15.39 gateway 128.197.
 
 ---- They all have multiple aptitude sources, as configured in /etc/aptitude/sources.list
 
+```
 deb http://mirrors.mit.edu/debian/ squeeze main deb-src http://mirrors.mit.edu/debian/ squeeze main deb http://security.debian.org/ squeeze/updates main deb-src http://security.debian.org/ squeeze/updates main deb http://mirrors.mit.edu/debian/ squeeze-updates main deb-src http://mirrors.mit.edu/debian/ squeeze-updates main deb http://backports.debian.org/debian-backports/ squeeze-backports main deb-src http://backports.debian.org/debian-backports/ squeeze-backports main
+```
 
 ---- The programs running backported are: xorg [with all dependencies--- very specifically, we need the intel drivers] linux-image-3.2.0-0.bpo.2-amd64 iceweasel
 

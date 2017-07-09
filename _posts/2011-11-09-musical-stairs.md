@@ -45,7 +45,7 @@ void noteOn(int cmd, int pitch, int velocity) {
 The CMD byte is on or off, 0x90 will trigger on, and any value between 0x81 and 0x8F will trigger off. The velocity byte anywhere between 0x00 for no volume, 0x45 for medium volume, and 0x90 for maximum volume. the pitch byte is determined by the following table. (table will format correctly) Middle C has a MIDI value of 60, perhaps that could be set to the middle stair?
 
 ```
-{|border = "1" ! Stair Number ! Note ! Decimal ! Hex |- |1|| F#|| 30|| 0x1E |- |2||G||31||0x1F |- |3||G#||32||0x20 |- |4||A||33||0x21 |- |5||A#||34||0x22 |- |6||B||35||0x23 |- |7||C||36||0x24 |- |8||C#||37||0x25 |- |9||D||38||0x26 |- |10||D#||39||0x27 |- |11||E||40||0x28 |- |12||F||41||0x29 |- |13||F#||42||0x2A |- |14||G||43||0x2B |- |15||G#||44||0x2C |- |16||A||45||0x2D |- |17||A#||46||0x2E |- |18||B||47||0x2F |- |19||C||48||0x30 |- |20||C#||49||0x31 |- |21||D||50||0x32 |- |22||D#||51||0x33 |- |23||E||52||0x34 |- |24||F||53||0x35 |- |25||F#||54||0x36 |- |26||G||55||0x37 |- |27||G#||56||0x38 |- |28||A||57||0x39 |}
+{! Stair Number ! Note ! Decimal ! Hex |- |1|| F#|| 30|| 0x1E |- |2||G||31||0x1F |- |3||G#||32||0x20 |- |4||A||33||0x21 |- |5||A#||34||0x22 |- |6||B||35||0x23 |- |7||C||36||0x24 |- |8||C#||37||0x25 |- |9||D||38||0x26 |- |10||D#||39||0x27 |- |11||E||40||0x28 |- |12||F||41||0x29 |- |13||F#||42||0x2A |- |14||G||43||0x2B |- |15||G#||44||0x2C |- |16||A||45||0x2D |- |17||A#||46||0x2E |- |18||B||47||0x2F |- |19||C||48||0x30 |- |20||C#||49||0x31 |- |21||D||50||0x32 |- |22||D#||51||0x33 |- |23||E||52||0x34 |- |24||F||53||0x35 |- |25||F#||54||0x36 |- |26||G||55||0x37 |- |27||G#||56||0x38 |- |28||A||57||0x39 |}
 ```
 
 Arduino Midi Example code:

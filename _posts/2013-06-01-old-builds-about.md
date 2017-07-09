@@ -6,7 +6,7 @@ permalink: /news/:year/:month/:day/:title/
 tag: [about]
 ---
 
-The original BUILDS about page.
+The original BUILDS about page from 2013 and before.
 
 ## About
 
