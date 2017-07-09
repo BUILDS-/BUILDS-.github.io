@@ -38,9 +38,9 @@ deb http://mirrors.mit.edu/debian/ squeeze main deb-src http://mirrors.mit.edu/d
 
 ---- xscreensaver has been configured like this: It is set to "only one screensaver", and the screensaver is always BRIGHTLY COLORED. It is set to start automatically by setting an autostart with the command xscreensaver -no-splash
 
----- xfce4-terminal has been configured with MY SPECIAL COLOR CONFIG, which I have tyrannically imposed on everyone. Due to its length it is on a separate page, [[xfce4-terminal configuration|here]]. It belongs at ~/.config/Terminal/terminalrc
+---- xfce4-terminal has been configured with MY SPECIAL COLOR CONFIG, which I have tyrannically imposed on everyone. Due to its length it is on a separate page, xfce4-terminal configuration. It belongs at ~/.config/Terminal/terminalrc
 
----- The configuration for xfwm is on [[xfwm4 configuration|a separate page]]. It belongs at ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml . Simply clobbering the old file seems not to work, but I don't understand why.
+---- The configuration for xfwm is on xfwm4 configuration. It belongs at ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml . Simply clobbering the old file seems not to work, but I don't understand why.
 
 ---- Here is a list of packages that we've explicitly installed, that haven't been mentioned here. Ones that are STARRED** are backported.
 

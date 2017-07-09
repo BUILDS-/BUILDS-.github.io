@@ -1,5 +1,5 @@
 ---
-title:  "BUILDSBot: 12 Ounce"
+title:  "BUILDSbot: 12 Ounce"
 date:   2012-03-22 13:07:36
 author: "Chris Woodall"
 image_url: /assets/img/posts/projects/2013-03-22-buildsbot-12-ounce/banner.jpg
@@ -11,5 +11,5 @@ BUILDSbot 12 Ounce is part of the overarching BUILDSbot project. The goal is to 
 
 Documentation can be found at the [BUILDS Wiki][0] and a Flickr photo galler can be found [here][1]
 
-[0]: http://www.builds.cc/wiki/index.php?title=BUILDSbot_12_Ounce
-[1]: http://www.flickr.com/photos/cjwoodall/sets/72157629429983849/
+[0]: [http://builds.cc/news/2012/02/15/buildsbot-12-ounce/](http://builds.cc/news/2012/02/15/buildsbot-12-ounce/)
+[1]: [http://www.flickr.com/photos/cjwoodall/sets/72157629429983849/](http://www.flickr.com/photos/cjwoodall/sets/72157629429983849/)

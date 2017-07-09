@@ -81,11 +81,12 @@ In order to make your Uno look like an HID device you need to flash your ATMega8
 
 Basically once you load up the Arduino code and then flash the Keyboard firmware you should be able to unplug your device, plug it back in and have it detected as a keyboard. All your code needs to do is send, via a serial connection the data that the HID Keyboard firmware is expecting to receive in this case it is 8 bytes.
 
-
+```
 Byte	Contents
 0	0 - Left CTRL | 1 - L SHIFT | 2 - L ALT | 3 - L GUI | 4 - R CTRL | 5 - R SHIFT | 6 - R ALT | 7 - R GUI
 1	Not Used
 2 - 7	HID Active Key Usage Codes (outlined below)
+```
 
 NOTICE: In order to reprogram your Arduino you will need to flash the default Arduino Serial hex unto your arduino. This can be found on your computer (on OSX that will be in your `/Applications/Arduino.app/Contents/Resources/Java/hardware/arduino/firmwares/arduino-usbserial/` directory. On other OSes I am not 100% sure where it will be located)
 

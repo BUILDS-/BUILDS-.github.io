@@ -12,4 +12,6 @@ Those joining this "project" will probably just get emails about meeting up to g
 
 Urban Playgrounding is happening on 10/10!!!
 
-This is the facebook event for the MP3 experiment. You download a mp3 but don't listen to it until everyone arrives at the undisclosed location. Everyone listens and follows the instructions at exactly 3:30pm. Expect to make a spectacle of yourself, simultaneously as others are making spectacles of themselves. [http://www.facebook.com/event.php?eid=110714162315025](http://www.facebook.com/event.php?eid=110714162315025)
+This is the facebook event for the MP3 experiment. You download a mp3 but don't listen to it until everyone arrives at the undisclosed location. Everyone listens and follows the instructions at exactly 3:30pm. Expect to make a spectacle of yourself, simultaneously as others are making spectacles of themselves.
+
+[http://www.facebook.com/event.php?eid=110714162315025](http://www.facebook.com/event.php?eid=110714162315025)

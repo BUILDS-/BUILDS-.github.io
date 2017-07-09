@@ -11,8 +11,8 @@ Welcome to the new static BUILDS website powered by [Bootstrap 2.3.2][bootstrap]
 
 Also, if you want to you can fork this website on [Github][gh-page] and push us updates! We will be vetting pushes and the officers will be the primary maintainers of this website.
 
-[bootstrap]: https://getboostrap.com/2.3.2
-[jekyll]:    http://jekyllrb.com
-[cwoodall]: http://cjwoodall.com
-[events]: /events
-[gh-page]: http://github.com/builds-/builds-static
+- [bootstrap]: https://getboostrap.com/2.3.2
+- [jekyll]:    http://jekyllrb.com
+- [cwoodall]: http://cjwoodall.com
+- [events]: /events
+- [gh-page]: http://github.com/builds-/builds-static

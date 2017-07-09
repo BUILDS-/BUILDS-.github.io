@@ -48,10 +48,14 @@ Coming soon...
 ### Parts
 
 ### Electronics
+```
 {| '''Part Names''' || '''Quantity''' || '''Part Number/Description''' || '''Vendor/Vendor ID'''|| '''Link/Datasheet''' |- | J1*, J2* || 2 || Mini Metal Gearmotor 100:1 (6V DC) || Sparkfun - ROB-08912 || [http://www.sparkfun.com/products/8912] |- | J1, J2 || 2 || Terminal Block 2-pin 3.5mm || Adafruit - 724 || [https://www.adafruit.com/products/724] |- | U3, U4, U5 || 3 || QRD1114 - Optical Detectors/Phototransistors || Sparkfun - SEN-00246 || [http://www.sparkfun.com/products/246] |- | U1 || 1 || Arduino Duemillanove (Uno also works) || DEV-11021 || [http://www.sparkfun.com/products/11021] |- | U2 || 1 || L293E Quadruple Half H-Bridge || Digikey - 497-3622-ND || [http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00000058.pdf] |- | D1 - D8 || 8 || Schottky Protection Diodes || N/A || N/A |- | C1, C2 || 2 || .1uF Ceramic Capacitors || N/A || N/A |- | C3 || 1 || 10uF Ceramic Capacitors || N/A || N/A |- | R1, R3, R5 || 3 || 200 Ohm Resistor || N/A || N/A |- | R2, R4, R6 || 3 || 5.6kOhm Resistors || N/A || N/A |- |}
+```
 
 ### Mechanical
+```
 {| '''Quantity''' || '''Part Number/Description''' || '''Vendor/Vendor ID'''|| '''Link/Datasheet''' |- | 1 || Ball Caster Omni-Directional Metal || Sparkfun - ROB-00320 || [http://www.sparkfun.com/products/320] |- | 2 || 32x7mm Wheels || Sparkfun - ROB-08901 || [http://www.sparkfun.com/products/8901] |- | 1 || Broken IR/Microwave Motion Detection Sensor for the chasis || N/A || N/A |- | 2 || Heavy Duty Zip Ties (in same these things actually secure the motors in place || N/A || N/A |}
+```
 
 ### Design
 
@@ -63,12 +67,18 @@ This schematic is laid out in EAGLE CAD 6, which offers an XML file format. The 
 ### Motor Controller
 [[Image:BUILDSbot-12Ounce-1-Side.jpg|thumb|center|250px|Side View of Motor Controller]]
 
-The motor controller works in a very simple manner here. You have control of 3 pins A, B and Enable for each motor. Enable is hooked up to a PWM pin and will control the speed of the motors and whether they are on or off. Pins A and B will be set HIGH or LOW to determine the direction of the motor. For example, if A is HIGH and B is LOW you will move Counter Clockwise. Alternatively you can do a halt, which will drive the motor against itself it is moving by raising both A and B HIGH. The problem is this state is not very good for the motor and does not actually lock the motor once it has stopped moving. To do a true halt A and B must be strobed between the Counter Clockwise state and the clockwise state. In the future models A will go direct and B will be the same pin as A and go through a NOT gate to reduce pin usage on the microcontroller. This also ensures that the halt state cannot be reached. Instead you should use a proper halt, which is more effective and better for the motors.
+The motor controller works in a very simple manner here. You have control of 3 pins A, B and Enable for each motor. Enable is hooked up to a PWM pin and will control the speed of the motors and whether they are on or off. Pins A and B will be set HIGH or LOW to determine the direction of the motor. For example, if A is HIGH and B is LOW you will move Counter Clockwise. Alternatively you can do a halt, which will drive the motor against itself it is moving by raising both A and B HIGH.
+
+The problem is this state is not very good for the motor and does not actually lock the motor once it has stopped moving. To do a true halt A and B must be strobed between the Counter Clockwise state and the clockwise state. In the future models A will go direct and B will be the same pin as A and go through a NOT gate to reduce pin usage on the microcontroller. This also ensures that the halt state cannot be reached. Instead you should use a proper halt, which is more effective and better for the motors.
 
 ### Optical Detectors
 [[Image:BUILDSbot-12Ounce-1-SensorArray.jpg|thumb|right|250px|Sensor Array]]
 
-On the bottom of 12 Ounce 3 Optical Detectors/Photo-transistors from Sparkfun were mounted. These are very cheap, noise reduced units which can easily tell white from black and do object detection. These detectors are pointed down and are intended for use as line followers. Since white and black react very differently when IR light is shined on them we can easily tell the difference between the two shades. Thus if a basic line follower course is created (white background with black lines) 12 Ounce should very easily be able to navigate it with the 3 sensors. Two of the sensors are spaced towards the outer extremities of 12 Ounce while the third is set in the centre and a little bit back. This should allow for simplified tracking of lines. If a line appears to the right sensor but none of the others we can deduce the direction we should move in. If we see a line under the central sensor we know we are likely on path, or maybe at a decision point if certain other circumstances exist. Using all of this information we should be able to follow lines and possibly navigate slightly more complicated courses, which include decision points.
+On the bottom of 12 Ounce 3 Optical Detectors/Photo-transistors from Sparkfun were mounted. These are very cheap, noise reduced units which can easily tell white from black and do object detection. These detectors are pointed down and are intended for use as line followers. Since white and black react very differently when IR light is shined on them we can easily tell the difference between the two shades.
+
+Thus if a basic line follower course is created (white background with black lines) 12 Ounce should very easily be able to navigate it with the 3 sensors. Two of the sensors are spaced towards the outer extremities of 12 Ounce while the third is set in the centre and a little bit back.
+
+This should allow for simplified tracking of lines. If a line appears to the right sensor but none of the others we can deduce the direction we should move in. If we see a line under the central sensor we know we are likely on path, or maybe at a decision point if certain other circumstances exist. Using all of this information we should be able to follow lines and possibly navigate slightly more complicated courses, which include decision points.
 
 ### Chasis
 [[Image:BUILDSbot-12Ounce-1-Bottom1.jpg|thumb|left|260px|Bottom mounting]]
@@ -135,7 +145,10 @@ Video of the BUILDSbot doing some basic movements (pre-programmed)
 All of 12 Ounces sensors have been properly tested and identified. 12 Ounce can also take very basic commands over serial.
 
 Current "protocol" is
+
+```
 {| '''Character''' || '''Action''' |- | g || Start moving (in whatever specified direction) |- | s || Stop movement (not a halt, a soft stop) |- | l || Turn/Spin Left (in place) |- | r || Turn/Spin Right (in place) |- | f || Forward Direction |- |b || Backward Direction |}
+```
 
 - [DONE] Milestone 2: Line Following in C++
 

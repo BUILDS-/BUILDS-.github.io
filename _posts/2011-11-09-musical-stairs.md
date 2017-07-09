@@ -85,7 +85,9 @@ Things with the patch board to fix (pin numbers are looking at the BACK of the b
 * WE MUST solder purple wire from pin 1 to pin 5 Everyone: take serious note, this will be confusing. The below is looking down on the jacks, counting from left to right. Sensor's patch-board jack: originally wrong
 * 1: signal yellow * 2: 5volts green * 3: GND red * 4: GND black Sensor's board jack: * 1: 5v green * 2: GND r/b * 3: signal yellow * 4: GND r/b Emitter's patch-board jack: * 1-3: collector (?) * 4: 5V Emitter's board jack: * 1: ? * 2: GND * 3: * 4: GND OLD WIRING: Holding the jack up (wires down), looking at the top: blue, blue stripe, green, green stripe. stripes: ground FOR RECEIVERS BLACK is five volts RED is ground GREEN in signal YELLOW is ground OLD: blue: 5v input voltage, green: arduino read wire FOR EMITTERS OLD: blue: input + 5 volts, green: output, transistors
 
-Hardware: {| | v0.1: | [[image:IR_Receiver_rpm7138.pdf|thumb|upright|IR receiver]] |}
+Hardware:
+
+{| | v0.1: | [[image:IR_Receiver_rpm7138.pdf|thumb|upright|IR receiver]] |}
 
 Test 1: In lab setup with one sensor and emitter. Video soon
 

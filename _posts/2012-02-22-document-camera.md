@@ -26,6 +26,7 @@ The Arduino is used mainly as a controller for the servo and can be configured a
 
 | Command Bit | Value Bit | \n |
 | ----------- | --------- | -- |
+|             |           |    |
 
 Newline characters will always break and only the first two characters will ever actually be interpreted.
 

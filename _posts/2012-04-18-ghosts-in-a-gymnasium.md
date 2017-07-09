@@ -17,6 +17,7 @@ April 18, 2012
 All code I have has been posted to:
 
 [https://github.com/themanwholaughs/Ghosts-In-A-Gymnasium](https://github.com/themanwholaughs/Ghosts-In-A-Gymnasium)
+
 You'll need to have pygame, and numpy installed to run. To run 'python game.py'
 
 ### TODO
