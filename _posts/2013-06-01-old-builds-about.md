@@ -24,21 +24,21 @@ You can join us by e-mailing acm@bu.edu and expressing your interest. Please inc
 
 ### BUILDS Current Officers
 
-President – Kyle Brogle
-Vice President – John-Nicholas Furst
-Treasurer – Valerie Young
-Secretary – Brian Hepler
-Lead Artist – Keisuke Nakayama
+- President – Kyle Brogle
+- Vice President – John-Nicholas Furst
+- Treasurer – Valerie Young
+- Secretary – Brian Hepler
+- Lead Artist – Keisuke Nakayama
 
 ### BUILDS Founders
-Founding President: David House
-Founding VP: Kyle Brogle
-Founding Treasurer: Maggie Clemens
-Founding Secretary: Robert Fera
-Founding Artist: Elina Starobinets
-Founding Support: John-Nicholas Furst
-Founding Support: Valerie Young
-Almighty Keeper of Time: Andy Kalenderian
+- Founding President: David House
+- Founding VP: Kyle Brogle
+- Founding Treasurer: Maggie Clemens
+- Founding Secretary: Robert Fera
+- Founding Artist: Elina Starobinets
+- Founding Support: John-Nicholas Furst
+- Founding Support: Valerie Young
+- Almighty Keeper of Time: Andy Kalenderian
 
 ### about BUILDS
 
@@ -46,5 +46,5 @@ BUILDS is a student-run research lab and workshop that provides BU students with
 
 ### Contact us
 
-E-mail: acm@bu.edu 
-Address: 111 Cummington St Rm. B26, Boston MA 02215
+- E-mail: acm@bu.edu
+- Address: 111 Cummington St Rm. B26, Boston MA 02215
