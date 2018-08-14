@@ -8,3 +8,6 @@ items:
     path: '/acknowledgements'
   - text: 'Archive'
     path: '/archive'
+  - text: 'About ACM'
+    path: '/aboutACM'
+
