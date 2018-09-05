@@ -7,8 +7,14 @@ layout: default
 <div class="resume row">
 	<div class="col-md-12">
 		<div id="about_me">
-			<h2>What is ACM?</h2>
-			<p>{{site.data.aboutACM.text | markdownify }}</p>
+			<div class ="col-md-12" style="margin-top: 20px">
+				<a href="{{ "/public/images/acm_logo.png" }}" data-toggle="lightbox" data-title="Logo" data-gallery="officer-gallery" class="col-xs-6">
+				    <img src="{{ "/public/images/acm_logo.png" }}" class="featurette-image img-responsive" style="width = 350px;">
+				</a>
+                <h2>What is ACM?</h2>
+				<p>{{site.data.aboutACM.text | markdownify }}</p>
+            </div>
+            <p>{{site.data.aboutACM_1.text | markdownify }}</p>
 			<br>
 			<!-- We haven't done anything to take pictures of yet
 			<div class="row">
