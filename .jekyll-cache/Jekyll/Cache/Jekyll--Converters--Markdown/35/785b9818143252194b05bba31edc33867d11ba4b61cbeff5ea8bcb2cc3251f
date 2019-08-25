@@ -1,0 +1,41 @@
+I"�<h2 id="objective">Objective</h2>
+
+<p>There are a few things I would like to inventory. One is computers / servers (this may be separate software as it might be specific to to computers). Not looking for anything to use to do managed administration, just inventory such as physical location and installed components (hd capacity, ram, processor, network interface, video card..)</p>
+
+<p>The other more general inventory would be for things such as general items like tools (screw drivers, saws, soldering irons) and expendables (sand paper, wire, gloves, batteries). I don’t expect to inventory every last item and I am sure it is impossible to keep a perfect inventory in shared spaces but I think it will help multiple people. People have a hard time finding things a lot, even if they are in their proper place, just because they don’t know where that place is. This system could solve that. Secondly the officers like to keep BUILDS stocked especially with the expendable items. But sometimes we don’t know when things get used. If the inventory system had a way to report low / out of items it would be very helpful in keeping items stocked.</p>
+
+<h3 id="background">Background</h3>
+
+<p>BUILDS is in a transition phase at the moment but we are going to use this as a chance to inventory our items as we move to our permanent room at the end of the summer.</p>
+
+<h3 id="software">Software</h3>
+
+<ul>
+  <li>Want:
+    <ul>
+      <li>Good web-based inventory software.</li>
+    </ul>
+  </li>
+  <li>Options:
+    <ul>
+      <li><a href="http://asset-tracker.sourceforge.net/">Asset Tracker</a> GPL Inventory Manager, requires PHP/MYSQL/APACHE</li>
+      <li><a href="http://www.open-audit.org/">Open Audit</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="steps">Steps</h3>
+
+<ul>
+  <li>Determine inventory software</li>
+  <li>Install software</li>
+  <li>Inventory and add to software</li>
+</ul>
+
+<h3 id="members">Members</h3>
+
+<ul>
+  <li>John-Nicholas Furst (Project Leader)</li>
+  <li>Jeff Crowell</li>
+</ul>
+:ET

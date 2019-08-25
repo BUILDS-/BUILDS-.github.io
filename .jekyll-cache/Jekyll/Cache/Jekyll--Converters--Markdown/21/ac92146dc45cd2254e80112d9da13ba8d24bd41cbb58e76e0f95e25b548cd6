@@ -1,0 +1,123 @@
+I"�<p>Notes recorded from BUILDS meeting
+Recorded 10/09/13</p>
+
+<!-- more -->
+
+<h1 id="recent-events">Recent Events</h1>
+<ul>
+  <li>HackMIT was last weekend
+    <ul>
+      <li>At least John and Kenshin were there, as well as some friends from other schools</li>
+      <li>Sean (<a href="mailto:swsmith@bu.edu">swsmith@bu.edu</a>) and his team made a Chrome addon that can visualize internet usage</li>
+      <li>John (<a href="mailto:jmoore15@bu.edu">jmoore15@bu.edu</a>) and others also made something.
+        <ul>
+          <li>You can see it in action at <a href="www.youtube.com">www.youtube.com</a>/watch?v=QVXoYD8HTj4</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="upcoming-events">Upcoming Events</h1>
+<ul>
+  <li>CSAW Recap
+    <ul>
+      <li>Still in planning stage</li>
+      <li>Hopefully next week</li>
+    </ul>
+  </li>
+  <li>Soldering Workshop
+    <ul>
+      <li>$10 equipment charge for soldering kit</li>
+      <li>PHO 105, October 25, 4-6 PM</li>
+      <li>Talk to Chris (<a href="mailto:cwoodall@bu.edu">cwoodall@bu.edu</a>)</li>
+      <li>Being put on together with ECE department</li>
+      <li>If you want to go, FILL OUT THE FORM that Chris is sending to the email list</li>
+      <li>If it fills up too much, BUILDS’ll host another one soon</li>
+    </ul>
+  </li>
+  <li>Intro to Arduino Workshop
+    <ul>
+      <li>Currently working out how to acquire Arduinos.  (Arduini?)</li>
+      <li>Will be an ongoing project once it starts</li>
+    </ul>
+  </li>
+  <li>Binary Pwning Seminar II
+    <ul>
+      <li>Will happen once CS 210’s lab finishes (about 3 weeks?)</li>
+    </ul>
+  </li>
+  <li>Lincoln Labs: Weekend of October 25
+    <ul>
+      <li>We have two teams
+        <ul>
+          <li>Both are being led by experienced BUILDS members, and should be placed to do well and have fun</li>
+        </ul>
+      </li>
+      <li>There are generally a few “seminars” held by the organizers in the weeks beforehand</li>
+      <li>We’ll announce them here when we know—attendance is encouraged!</li>
+      <li>There is also a “SKIRMISH” this Saturday
+        <ul>
+          <li>There’ll be an email soon</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Science Hack Day, and the associated project competition
+    <ul>
+      <li>October 19-20, Harvard Campus</li>
+      <li>Sign up for the event here: https://<a href="sciencehackdayboston.eventbrite.com">sciencehackdayboston.eventbrite.com</a>/</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="ongoing-projects">Ongoing Projects</h1>
+<ul>
+  <li>Kenshin’s Machine Learning Group
+    <ul>
+      <li>This Friday at 5 PM:  Solving ‘Cookie Clicker’</li>
+      <li>Talk to Kenshin (<a href="mailto:ben10@bu.edu">ben10@bu.edu</a>)</li>
+    </ul>
+  </li>
+  <li>BUILDSBOT
+    <ul>
+      <li>Mondays at 6 PM</li>
+      <li>Supplies are being chosen, and design should start soon</li>
+      <li>Prototype by end of semester, hopefully!
+        <ul>
+          <li>Programmable, and should make noise</li>
+        </ul>
+      </li>
+      <li>Talk to Chris (<a href="mailto:cwoodall@bu.edu">cwoodall@bu.edu</a>)</li>
+    </ul>
+  </li>
+  <li>Ceiling Tile Revitalization Initiative
+    <ul>
+      <li>Chris’s LED Tile
+        <ul>
+          <li>It glows!</li>
+          <li>There’s code available at github.com/cwoodall/FireTile3x3</li>
+          <li>Danny (<a href="mailto:dannyc@bu.edu">dannyc@bu.edu</a>) is working on a prototyping tool for testing appearance on your computer</li>
+          <li>It’s in an early stage of development, but it sure do look pretty!</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="administrative-matters">Administrative Matters</h1>
+<ul>
+  <li>Please don’t sleep on the couch too much
+    <ul>
+      <li>It isn’t great for a working environment in BUILDS</li>
+    </ul>
+  </li>
+  <li>Try to keep the tables (etc) clean too, for people who are working</li>
+  <li>If you want to be in the door database so you can swipe into BUILDS…
+    <ul>
+      <li>Talk to Allan (<a href="mailto:wirtha@bu.edu">wirtha@bu.edu</a>)!</li>
+    </ul>
+  </li>
+</ul>
+
+:ET

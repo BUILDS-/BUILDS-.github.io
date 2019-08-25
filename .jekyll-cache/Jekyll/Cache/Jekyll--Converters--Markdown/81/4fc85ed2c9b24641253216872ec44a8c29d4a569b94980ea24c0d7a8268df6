@@ -1,0 +1,30 @@
+I"0<h2 id="monday-feb-13-2012-at-600pm-in-builds">Monday Feb. 13, 2012 at 6:00pm in BUILDS</h2>
+
+<h3 id="plans">Plans</h3>
+
+<ol>
+  <li>
+    <p>Basics of Network Communication, quick explanation of common protocols.</p>
+  </li>
+  <li>
+    <p>Intro to Wireshark UI, useful menu items</p>
+  </li>
+  <li>
+    <p>Group-solving challenges from past network forensics competitions (DEFCON, NFPC)</p>
+  </li>
+  <li>
+    <p>Questions, where to look for harder challenges.</p>
+  </li>
+</ol>
+
+<h3 id="materials">Materials</h3>
+
+<ol>
+  <li>
+    <p>Challenges found at <a href="http://web.mit.edu/broglek/Public/Wireshark_Training/">http://web.mit.edu/broglek/Public/Wireshark_Training/</a></p>
+  </li>
+  <li>
+    <p>Wireshark can be downloaded from <a href="http://www.wireshark.org">http://www.wireshark.org</a></p>
+  </li>
+</ol>
+:ET

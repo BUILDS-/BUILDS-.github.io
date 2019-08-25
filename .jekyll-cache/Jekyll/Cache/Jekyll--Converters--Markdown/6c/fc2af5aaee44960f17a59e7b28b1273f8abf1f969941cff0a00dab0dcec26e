@@ -1,0 +1,61 @@
+I"d<p>Lan-Tunes is a collaborative multimedia server written in python by Allan Wirth that is licensed under the MIT License. You can see what we’ve been playing at <a href="http://www.last.fm/user/builds">http://www.last.fm/user/builds</a>. <a href="http://launchpad.net/lan-tunes/+milestone/0.1">Version 0.1</a> is planned for release by the end of March 2012. <a href="http://launchpad.net/lan-tunes/+milestone/0.1b">0.1 Beta</a> will be coming slightly before.</p>
+
+<p>You can download the wrapper script <a href="http://bazaar.launchpad.net/~allanlw/lan-tunes/devel/view/head:/scripts/wrapper.sh">here</a>.</p>
+
+<h2 id="contents">Contents</h2>
+
+<ul>
+  <li>1 Repository</li>
+  <li>2 Bugs/TODO</li>
+  <li>3 Creating a new plugin
+    <ul>
+      <li>3.1 Frontend</li>
+      <li>3.2 Backend</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="repository">Repository</h2>
+
+<p>The bzr repository for Lan-Tunes can be found on Launchpad at <a href="http://launchpad.net/lan-tunes">http://launchpad.net/lan-tunes</a>.</p>
+
+<h2 id="bugstodo">Bugs/TODO</h2>
+
+<p>To see the current bug list check the launchpad bug tracker at <a href="http://bugs.launchpad.net/lan-tunes">https://bugs.launchpad.net/lan-tunes</a>.</p>
+
+<h2 id="creating-a-new-plugin">Creating a new plugin</h2>
+
+<p>Creating new plugins for Lan-Tunes is easy. Plugins fall into two categories, frontends and backends. Backends plugins add new media types to display, whereas frontend plugins mostly either modify the playlist state or respond to changes in the playlist. For example, youtube is a backend plugin whereas last.fm is a frontend.</p>
+
+<h3 id="frontend">Frontend</h3>
+
+<p>Creating a new frontend plugin is easy. A frontend plugin is merely a module (or package, if the plugin requires multiple source files) that defines a class Plugin that subclasses FrontendPlugin (from <a href="http://bazaar.launchpad.net/~allanlw/lan-tunes/devel/view/head:/src/frontendplugin.py">src/frontendplugin.py</a>). Plugin must have the same constructor signature as FrontendPlugin and must also call FrontendPlugin’s constructor. Frontend plugins are designed to run in their own thread, although they are not required to (for example, the lastfm plugin has no thread of its own).</p>
+
+<p>Frontend plugins that require their own thread should override the functions run() and kill(). run() will be called in a separate thread, and calling kill from the main thread SHOULD cause run to return (and ideally join with it). Note: Because run will be in a separate thread, all calls to GUI methods must be made through the util.idle_add interface in order to avoid locking problems.</p>
+
+<p>Frontend plugins can also connect to the methods of the playlistmanager object that they are passed in the constructor.</p>
+
+<p>For an example of a simple, non-threaded plugin see <a href="http://bazaar.launchpad.net/~allanlw/lan-tunes/devel/view/head:/src/frontends/lastfm/__init__.py">src/frontends/lastfm/<strong>init</strong>.py</a>.</p>
+
+<p>For additional documentation see <a href="http://bazaar.launchpad.net/~allanlw/lan-tunes/devel/view/head:/src/frontendplugin.py">src/frontendplugin.py</a>.</p>
+
+<h3 id="backend">Backend</h3>
+
+<p>Backend plugins are slightly more complicated. Like a frontend plugin, a backend plugin is merely a module (or package) that defines a class Plugin that subclasses BackendPlugin (from <a href="http://bazaar.launchpad.net/~allanlw/lan-tunes/devel/view/head:/src/backendplugin.py">src/backendplugin.py</a>). Again, Plugin must have the same constructor signature as BackendPlugin and must call BackendPlugin’s constructor. Unlike frontend plugins, backend plugins do not explicitly have their own threads (although they can for playback).</p>
+
+<p>The following methods of BackendPlugin must be overridden:</p>
+
+<ul>
+  <li><strong>init</strong>(self, backends, conf) - Should passthrough to backendplugin.<strong>init</strong>. backends contains a dictionary of the names of the already loaded modules mapped to their Plugin.</li>
+  <li>get_widget(self) - Should return a gtk widget that will be used for url that have ‘video’: True in their metadata. Will be called in the gtk main loop. This method is REQUIRED unless get_metadata never sets the video field to true.</li>
+  <li>can_play(self, url) - Returns true if this backend can play a given url. This MIGHT be called OUTSIDE of the gtk main loop. This method is REQUIRED.</li>
+  <li>play(self, url) - Plays a url. This may be called outside the gtk main loop. Sometime after a call to play, the plugin MUST emit(“stopped”) in the gtk main loop (potentially using util.idle_add). This method is REQUIRED. This function MUST NOT BLOCK.</li>
+  <li>get_metadata(self, url) - Retrieves metadata for a url. This will be called OUTSIDE the main loop. This should return a dictionary containing at least the key ‘video’ which will determine if the the gui will use the widget while playing this url. It can (and should) also contain the keys ‘title’, and ‘duration’. Additionally ‘artist’ and ‘album’ are optional, but recommended if available. This function is expected to block for some indeterminate amount of time (ideally short). This method is REQUIRED.</li>
+  <li>set_volume(self, val) - This sets the volume of the backend. This will be called OUTSIDE of the main loop. val will be an integer between 0 (min volume) and 100 (max volume). This method is REQUIRED.
+Backend plugins MUST also define a variable DEPS that contains an iterable of names of plugins that this plugin depends upon.</li>
+</ul>
+
+<p>For a simple example of a backend plugin see <a href="http://bazaar.launchpad.net/~allanlw/lan-tunes/devel/view/head:/src/backends/youtube/__init__.py">/src/backends/youtube/<strong>init</strong>.py</a>. For an example of a plugin that wraps the core VLC plugin see <a href="http://bazaar.launchpad.net/~allanlw/lan-tunes/devel/view/head:/src/backends/xhamster/__init__.py">/src/backends/xhamster/<strong>init</strong>.py</a>.</p>
+
+<p>For additional documentation see <a href="http://bazaar.launchpad.net/~allanlw/lan-tunes/devel/view/head:/src/backendplugin.py">/src/backendplugin.py</a> and <a href="http://bazaar.launchpad.net/~allanlw/lan-tnes/devel/view/head:/README">/README</a>.</p>
+:ET

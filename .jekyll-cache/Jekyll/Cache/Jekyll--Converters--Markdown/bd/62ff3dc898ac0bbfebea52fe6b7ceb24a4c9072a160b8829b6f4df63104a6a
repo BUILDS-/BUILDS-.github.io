@@ -1,0 +1,105 @@
+I"Ï<p>Conductive Paint is a conductive material made up of a conductive powder suspended in a binding fluid. When dried the conductive powders will be close enough together that the material itself becomes conductive. There are different kinds of Conductive Paints, but the easiest and cheapest to produce utilizes graphite powder. Carbon Graphite is a surprisingly good conductor and is both easy to come by (as it is often used as a lubricant) and relatively easy to work with and mix into other materials.</p>
+
+<h2 id="contents">Contents</h2>
+
+<p>1 Goals/Specs
+2 Attempt 1
+	2.1 Materials List
+	2.2 Process
+	2.3 Results
+	2.4 Possible Improvements
+	2.5 Resources
+3 Credits</p>
+
+<h3 id="goalsspecs">Goals/Specs</h3>
+
+<ol>
+  <li>Produce a conductive material which can be painted onto walls</li>
+  <li>Material should be useable for cap sense</li>
+  <li>Material should have a resistance &lt; 100 ohms / in^2 when dry</li>
+  <li>Relatively low cost</li>
+</ol>
+
+<h3 id="attempt-1">Attempt 1</h3>
+
+<p>Picture of the materials I used. Acetone, Graphite, Liquid Tape</p>
+
+<h3 id="materials-list">Materials List</h3>
+
+<ul>
+  <li>Graphite Powder of some sort</li>
+  <li>Liquid Tape/Liquid Electrical Coating</li>
+  <li>Paint Thinner (Acetone or Tuloul)</li>
+  <li>Glass Container for Mixing</li>
+  <li>Paintbrush for mixing and painting</li>
+  <li>Scrap Wood/Paper for Testing</li>
+</ul>
+
+<p>Total Cost: If you have a container, some paintbrushes and scrap wood you can get by for under $20.</p>
+
+<h3 id="process">Process</h3>
+
+<p>This is a very rough process because I did not have anything to measure with.</p>
+
+<ol>
+  <li>Put some insulating tape into a mixing container (1 part by vol)</li>
+  <li>Start mixing the tape and add in graphite powder (1.5-2 parts by volume)</li>
+  <li>Add acetone to thin out the mixture into something that can be painted onto a surface (instead of a glue like adhesive). You want this to be relatively thick paint, but a paint not a glue. (1 part should work)</li>
+  <li>Paint this substance ASAP, because it will dry really, really fast. At first I started painting relatively long portions. I started using smaller samples.</li>
+</ol>
+
+<p>Note: For this batch I used a lot of liquid tape and slowly added more graphite and continuously tested this mixture</p>
+
+<p>REMEMBER: Do this in a well ventilated area!</p>
+
+<h3 id="results">Results</h3>
+
+<p>Resistance Measurements</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Trial 1</th>
+      <th>Trial 2</th>
+      <th>Trial 3</th>
+      <th>Trial 4</th>
+      <th>Trial 5</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Overload</td>
+      <td>284.1 kOhm/in.</td>
+      <td>14.4 kOhm/in.</td>
+      <td>5 kOhm/in.</td>
+      <td>1 kOhm/in.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The different trials are the same mix with more graphite added. Not a whole lot of measurement was taken, but as a proof of concept this was very effective.</p>
+
+<h3 id="possible-improvements">Possible Improvements</h3>
+
+<ul>
+  <li>Use something that is not diamagnetic and insulating as the carrying materialâ€¦</li>
+  <li>Try straight acrylic paint</li>
+  <li>Saw some posting about using isopropyl as a carrier for the graphite powder.</li>
+  <li>Use copper/aluminium powder (very expensive though)</li>
+  <li>Need better measuring apparatus</li>
+</ul>
+
+<h3 id="resources">Resources</h3>
+
+<ul>
+  <li><a href="http://www.instructables.com/id/Conductive-Glue-And-Conductive-Thread-Make-an-LED/step1/Make-Conductive-Glue-Conductive-Paint-and-Conduc/">A Helpful Instructables About Conductive Paints</a></li>
+  <li><a href="http://www.talkbass.com/forum/f38/diy-conductive-paint-cavity-shielding-589012/">A Reference Project</a></li>
+</ul>
+
+<h3 id="credits">Credits</h3>
+
+<ul>
+  <li>Dan Gastler</li>
+  <li>Christopher Woodall</li>
+</ul>
+:ET

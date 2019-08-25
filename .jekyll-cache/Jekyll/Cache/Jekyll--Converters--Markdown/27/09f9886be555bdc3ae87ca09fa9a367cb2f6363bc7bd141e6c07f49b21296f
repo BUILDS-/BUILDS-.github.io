@@ -1,0 +1,96 @@
+I"d<h2 id="new-builds-room">New BUILDS room</h2>
+
+<h3 id="door">Door</h3>
+
+<h3 id="monitor">Monitor</h3>
+
+<p>Installed and working!</p>
+
+<p>The desktop background stays the same at all times with a transparent terminal over it. On swipe, an alternative display based on the user id number is made using latex-beamer and converted to an image file that gets displayed with feh.</p>
+
+<p>Currently, the display contains a 1984 reference. It has the potential to be expanded into different displays which could be rotated daily. Fun interactive door displays can be used for recruiting.</p>
+
+<h3 id="door-computer">Door computer</h3>
+
+<blockquote>
+  <p>Old door computer has been placed on the floor next to the door, but moving it into the ceiling would be a better option.</p>
+</blockquote>
+
+<p>One can access the door computer by plugging in a USB keyboard and mouse into the back of monitor on the inside of the door. The old door computer now lives above the door in a trough like structure in the ceiling. DO NOT lift the ceiling tile in the corner above the door, it has the video/power cables on it; lift the one next to it. There is currently no fixed IP, but if one uses the keyboard/mouse, they can figure out the IP and log in remotely by SSH.</p>
+
+<h3 id="card-reader">Card reader</h3>
+
+<p>The card reader has been physically installed, but the software backend needs to be revived.</p>
+
+<p>Note: this reader contains magical black smoke that turns it into a keyboard, so make sure you have the active window if you are using it.</p>
+
+<p>Currently, the card reader is used to display interesting “information” on the door screen. This is done in a screen session named “SwipeControl”, through 3 files (I’ll upload them soon!).</p>
+
+<ul>
+  <li>masterrun.sh
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>This creates a full screen gnome-terminal on the door screen (nifty) and executes run.sh in it. 
+</code></pre></div>    </div>
+  </li>
+  <li>run.sh
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>This script loops over waiting for a card swipe, generating interesting outputs, and displaying them on the door screen. 
+</code></pre></div>    </div>
+  </li>
+  <li>troll.c
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>This script turns off keyboard echoing to the screen and waits for a card swipe.   After a card swipe, it helps generate the output generated in the run.sh script.
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h3 id="restarting-software-in-case-of-crash">Restarting Software in Case of Crash</h3>
+
+<ol>
+  <li>
+    <p>Figure out computers IP address.</p>
+  </li>
+  <li>
+    <p>ssh to machine</p>
+  </li>
+  <li>open the screen session
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>screen -r SwypeControl
+</code></pre></div>    </div>
+    <p>if there is an error,</p>
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>screen -S SwypeControl
+</code></pre></div>    </div>
+  </li>
+  <li>Find relevent code in directory
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd ~/swipe_control
+</code></pre></div>    </div>
+  </li>
+  <li>Run code in swipe_control directory
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sh masterRun.sh
+</code></pre></div>    </div>
+  </li>
+  <li>Detach from screen session
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ctrl-a ctrl-d
+</code></pre></div>    </div>
+  </li>
+  <li>Test</li>
+</ol>
+
+<h3 id="door-strike">Door strike</h3>
+
+<p>After doing some measurements and looking at tech sheets we have determined that this one will fit our door.</p>
+
+<p><a href="http://www.amazon.com/Skylink-ES-201-Electric-Strike/dp/B000KKXRB4">http://www.amazon.com/Skylink-ES-201-Electric-Strike/dp/B000KKXRB4</a></p>
+
+<p>A request for money has been sent to the BUILDS secretary.</p>
+
+<p>Upon arrival, the install should be quick.</p>
+
+<h3 id="web-cam">Web-cam</h3>
+
+<p>Cable feedthrough is in place for door webcam.</p>
+
+<h3 id="old-builds-room">Old BUILDS room</h3>
+
+<p>The door has been upgraded from its original RFID reader to a magstripe reader. The main cause of this is the cost of purchasing RFID tags. Now bu students may use bu ids to swipe into BUILDS and non-bu members may use any magstripe card they wish as their swipe card.</p>
+
+<p>The door upgrade has also added a monitor outside of the door.</p>
+
+<p>While right now it doesn’t have much use besides looking cool, it will eventually host announcements and general news.</p>
+:ET

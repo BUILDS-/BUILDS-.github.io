@@ -1,0 +1,16 @@
+I"„<p>BUILDS and Furst Labs are working together to perfect a multi-touch screen.</p>
+
+<p>The physical screen must be engineered for optimal finger blob-tracking.</p>
+
+<p>Fingers are individually tracked on the surface using modified web cameras.</p>
+
+<p>The camera input is fed into custom tracker program designed by Furst Labs which implements the latest standard of Open Computer Vision.</p>
+
+<p>The tracker program then sends the individual tracked data points over a modified Tangible User Interface Objects protocol tunneled through the Open Sound Control protocol to another custom Furst Labs built program for gesture tracking and recognition.</p>
+
+<p>Once gestures have been recognised this program responds appropriately by either opening other applications or interacting with the userâ€™s graphical interface.</p>
+
+<h3 id="members">Members</h3>
+
+<p>John-Nicholas Furst (Project Leader)</p>
+:ET

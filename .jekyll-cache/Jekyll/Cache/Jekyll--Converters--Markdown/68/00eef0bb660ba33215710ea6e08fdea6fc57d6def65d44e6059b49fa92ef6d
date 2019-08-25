@@ -1,0 +1,99 @@
+I"�
+<p>Notes recorded from BUILDS meeting
+Recorded 10/23/13</p>
+
+<!-- more -->
+
+<p>Recent Events:</p>
+<ul>
+  <li>MIT/Lincoln Labs Tutorial Session/Crash Course</li>
+</ul>
+
+<p>Upcoming Events:</p>
+<ul>
+  <li>Lincoln Labs: Weekend of October 25
+    <ul>
+      <li>It starts Friday 6 PM, ends Sunday 3 PM</li>
+      <li>There are no scheduled breaks, so people will be working in shifts</li>
+      <li>Allan WILL be enforcing that people sleep :)</li>
+    </ul>
+  </li>
+  <li>Danny (dannyc@bu.edu)’s Android tutorial for Lincoln
+    <ul>
+      <li>Right after the meeting</li>
+      <li>Focus on Android security concepts, such as intents</li>
+      <li>Example of message interception and injection</li>
+      <li>No experience required</li>
+    </ul>
+  </li>
+  <li>Soldering Workshop:
+    <ul>
+      <li>Additional dates are happening—70 people registered</li>
+      <li>$10 equipment charge for soldering kit</li>
+      <li>PHO 105, October 25, 4-6 PM</li>
+      <li>Talk to Chris (cwoodall@bu.edu)</li>
+      <li>Being put on together with ECE department</li>
+      <li>BUILDS will be hosting another one soon, by ourselves</li>
+    </ul>
+  </li>
+  <li>Hack Princeton and YHack (Yale)
+    <ul>
+      <li>Both offer travel reimbursements</li>
+      <li>Same weekend…</li>
+    </ul>
+  </li>
+  <li>There will be some more advanced binary pwning and reversing seminars
+    <ul>
+      <li>Designed for the people going to CSAW finals, but open to all</li>
+      <li>Consider 210 a co-/prerequisite</li>
+    </ul>
+  </li>
+  <li>Arduino Workshop?
+    <ul>
+      <li>People will probably have to buy their own
+        <ul>
+          <li>We do have two spare ones, and people can share</li>
+        </ul>
+      </li>
+      <li>Talk to Chris (cwoodall@bu.edu)</li>
+    </ul>
+  </li>
+  <li>Boston Data Festival
+    <ul>
+      <li>November 4-11</li>
+      <li>smg26.wpengine.com</li>
+      <li>Kenshin (ben10@bu.edu) will send more information in an email</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Ongoing Projects:</p>
+<ul>
+  <li>Ceiling Tile Revitalization Initiative
+    <ul>
+      <li>Chris (cwoodall@bu.edu)’s LED Tile
+        <ul>
+          <li>It listens to sound playing on Lantunes!
+            <ul>
+              <li>It’s using pyaudio and some things</li>
+            </ul>
+          </li>
+          <li>Billy (wgullott@bu.edu)’s working on an 8x8 right now</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>BUILDSBOT
+    <ul>
+      <li>Mondays at 6 PM</li>
+      <li>More electronics people wanted!</li>
+      <li>Cameras will be ordered soon
+        <ul>
+          <li>If you’re interested in computer vision, drop by!</li>
+        </ul>
+      </li>
+      <li>Talk to Chris (cwoodall@bu.edu)</li>
+    </ul>
+  </li>
+</ul>
+:ET

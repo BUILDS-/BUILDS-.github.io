@@ -1,0 +1,67 @@
+I"H	<h2 id="objective">Objective</h2>
+
+<p>I want to make a database to make the search for rooms easier.</p>
+
+<h3 id="database">Database</h3>
+
+<p>The idea is to take raw data that students could use: square footage, number of closets, kitchens, common room, laundry rooms, floor, gender, is it a single or a double, is it renovated (this would require checking the place in person), and etc. The floor plans indirectly list most of them and they have a separate binder that list room capacity and gender.</p>
+
+<p>Ideally, a user can enter what amenities they want (ie a student wants to know what dorms have a kitchen) and they can get a list of dorms with rooms that have it. The ability to find out the square-footage of a room or if a dorm have a kitchen in an easy and fast way can be useful.</p>
+
+<p>Okay, so the exact data points seems to go under two areas: Room amenities and Dorm amenities.</p>
+
+<h4 id="room">Room</h4>
+
+<p>Square footage</p>
+
+<p>Number of closets</p>
+
+<p>Additional rooms</p>
+
+<p>Gender</p>
+
+<p>Capacity</p>
+
+<p>Floor</p>
+
+<p>Personal Bathroom (yes, I found that a few rooms, have a personal bathroom without the charge, one even had a personal kitchen 
+but was not categorized as apartment)</p>
+
+<h4 id="dorm">Dorm</h4>
+
+<p>Renovated?</p>
+
+<p>Laundry Room?</p>
+
+<p>Storage Room?</p>
+
+<p>Number of Common Rooms</p>
+
+<p>Common Kitchen (The French House have 2, at least on paper)?</p>
+
+<p>Bike Room?</p>
+
+<p>Other Special Amenities?</p>
+
+<h3 id="needs">Needs</h3>
+
+<p>I have gathered some data, but I’ll need more. BU housing open 9-5, but I work 9-5, so progress could be a little slow. Towers RHA does have some of the data and open 7-11 (or something like that), but a good portion are not very legible and they only have floor plans. If someone want to help me on this front, it would defeat one of the biggest bottlenecks of this work.</p>
+
+<p>Basically, there’s three main types of work.</p>
+
+<ol>
+  <li>Data Gathering (going through floor plans and documents and put it on the computer, let me tell you, it is slow work)</li>
+  <li>Front End work</li>
+  <li>Back End work</li>
+</ol>
+
+<p>Anyways, if anyone want to help in any way, sign up!</p>
+
+<h3 id="members">Members</h3>
+
+<ul>
+  <li>Antoine (Project leader)</li>
+  <li>John-Nicholas Furst (Database and infrastructure)</li>
+  <li>Kenny Kalenderian (Party Interested in Helping)</li>
+</ul>
+:ET

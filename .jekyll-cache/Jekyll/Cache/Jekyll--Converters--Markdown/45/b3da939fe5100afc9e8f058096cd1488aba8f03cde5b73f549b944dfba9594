@@ -1,0 +1,93 @@
+I"�<h2 id="overview">Overview</h2>
+
+<h3 id="design">Design</h3>
+
+<h3 id="parts-list">Parts List</h3>
+
+<ul>
+  <li>Arduino Uno</li>
+  <li>Servo Motor</li>
+  <li>Canon Camera (compatible with CHDK)</li>
+</ul>
+
+<h3 id="specifications">Specifications</h3>
+
+<h3 id="powering-the-camera">Powering the Camera</h3>
+
+<h3 id="servo-controller">Servo Controller</h3>
+
+<p>The Arduino is used mainly as a controller for the servo and can be configured and issued commands over a Serial connection. The serial protocol used is extremely basic and relies on messages of three characters in length.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Command Bit</th>
+      <th>Value Bit</th>
+      <th>\n</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Newline characters will always break and only the first two characters will ever actually be interpreted.</p>
+
+<p>The following commands will set different position registers. Where n represents the ascii representation of a number.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Command</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>x</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>x</td>
+    </tr>
+    <tr>
+      <td>n</td>
+      <td>x</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The following command flags are recognized.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>String</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>-t</td>
+      <td>Trigger through array positions</td>
+    </tr>
+    <tr>
+      <td>-l</td>
+      <td>List the values in int array positions</td>
+    </tr>
+    <tr>
+      <td>-d</td>
+      <td>Toggle debug mode</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Debug mode can be set using pin 12 on the Arduino. It is high active (when high debug mode will be on). Code is hosted at <a href="https://github.com/cwoodall/BUILDS-Document-Camera">Document Camera Source Code</a></p>
+
+<h3 id="camera-communications">Camera Communications</h3>
+:ET

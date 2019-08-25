@@ -1,0 +1,79 @@
+I"{
+<h2 id="builds-meeting">BUILDS Meeting</h2>
+<p>11/17/2010</p>
+
+<h3 id="kyle-brogle">Kyle Brogle</h3>
+<ul>
+  <li>Everybody say hi to Jim!
+    <ul>
+      <li>Again, the room can get messy pretty fast. Please do your part to keep everything organized and clean.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="mc">MC</h3>
+<ul>
+  <li>Competition ran by <a href="http://www.autismspeaks.org">Autism Speaks</a> to develop tools/applications to aid people on the autism spectrum.
+    <ul>
+      <li>If you’re interested in helping (in conjunction with <a href="http://media.mit.edu">MIT Media Lab</a>) work on open source software for the Project contact MC.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="valerie-young">Valerie Young</h3>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* Musical Stairs
+* All of the electronics are basically worked out (still working on arduino interfaces).
+* The project group as of now is focusing mainly on mounting issues with hardware.
+* Installation is planned for the Sunday prior to beginning of next semester.
+</code></pre></div></div>
+
+<h3 id="john-nicholas-furst--patrick-ehrlicher">John-Nicholas Furst / Patrick Ehrlicher</h3>
+<ul>
+  <li>Tesla Coil
+    <ul>
+      <li>Progress is now blocking on wrapping the copper wire for the coil</li>
+      <li>The project needs people to help wrap a LOT of wire before it can feasibly get off the ground</li>
+      <li>If you love epic-ness, contact Patrick/John</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="kyle-brogle-1">Kyle Brogle</h3>
+<ul>
+  <li><a href="https://imagine.microsoft.com">Microsoft Imagine Cup</a>
+    <ul>
+      <li>Submission deadline for the fall has passed, so if you haven’t yet submitted, gear up for the spring.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="ian-felder">Ian Felder</h3>
+<ul>
+  <li>Veggie Car
+    <ul>
+      <li>Progress is blocking on the finished project proposal</li>
+    </ul>
+  </li>
+  <li>Reinventing the Disco Ball
+    <ul>
+      <li>plan is to create a spherical shell of RGB LEDs (individually addressable)</li>
+      <li>maybe plans to create an 8 bit display?</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="kyle-brogle-2">Kyle Brogle</h3>
+<ul>
+  <li>BU and Friends Faculty Presentations
+    <ul>
+      <li>Any ideas for faculty who do awesome things to come down and give presentations?</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="builds-brain-dumps">BUILDS Brain Dumps</h3>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* coming up spring semester, BUILDS folk with expertise in some area are welcome to give Lectures/ presenations with all of the bells and whistles
+</code></pre></div></div>
+
+<p>MEETING ENDED 7:00 pm</p>
+:ET

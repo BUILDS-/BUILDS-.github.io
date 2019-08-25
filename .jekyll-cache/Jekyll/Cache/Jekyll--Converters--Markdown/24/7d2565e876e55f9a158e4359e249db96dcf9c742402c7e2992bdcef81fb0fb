@@ -1,0 +1,100 @@
+I"�<h2 id="builds-meeting">BUILDS Meeting</h2>
+<p>9/8/2010
+6:30pm</p>
+
+<h3 id="kyle-brogle">Kyle Brogle</h3>
+<ul>
+  <li>Introductions
+    <ul>
+      <li>Welcome back…improvements to room:</li>
+      <li>Everything is labelled and in its place.</li>
+      <li>Now have plenty of workspace, planning for ethernet and power drops to the long center table in near future.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="john-nicholas-furst">John-Nicholas Furst</h3>
+<ul>
+  <li>Door no longer RFID; you now swipe magstripe cards to get in.</li>
+  <li>New and existing members NEED to get BUILDS accounts @ <a href="http://builds.cc">http://builds.cc</a></li>
+  <li>What does the BUILDS website account give you access to?
+    <ul>
+      <li>The wiki</li>
+      <li>Wordpress features of site.</li>
+      <li>The door</li>
+      <li>Ability to join projects you are interested in through the BUILDS site.</li>
+    </ul>
+  </li>
+  <li>BUILDS phone line is 617 358 1164; call to see if people are inside, especially if the exterior building is locked.</li>
+</ul>
+
+<h3 id="kyle-brogle-1">Kyle Brogle</h3>
+<ul>
+  <li>Current projects
+    <ul>
+      <li>debdog. Automated debian config packages for computers using the BU network. “Like BU Linux, only better”
+        <ul>
+          <li>Hopefully we can get IS&amp;T to eventually recommend as an alternative to BU Linux in the future.</li>
+          <li>Talk to Kyle if interested.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="valerie-young">Valerie Young</h3>
+<ul>
+  <li>Musical staircase
+    <ul>
+      <li>Great way to be introduced with practical engineering project. talk to Valerie, et al.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="kyle-brogle-2">Kyle Brogle</h3>
+<ul>
+  <li>New project proposals:
+    <ul>
+      <li>Circuit-bending instrument construction</li>
+      <li>Creating a “T tracker” using Google Maps API</li>
+      <li>Using terrain data and Google Maps API to map most efficient (see:downhill) routes for longboarding and biking.</li>
+      <li>Building a tube amp / stereo tube amp (which is just two mono ones).</li>
+      <li>Expanding surface area on vacuum to create enough suction to climb buildings. (Spidervac?)</li>
+      <li>Tesla coil</li>
+    </ul>
+  </li>
+  <li>What kind of workshops do people want taught?
+    <ul>
+      <li>Intro to unix, linux, programming languages.</li>
+      <li>Intro to the room’s powertools.</li>
+      <li>Intro to developing and building with arduinos.</li>
+      <li>Practical electronics (a.k.a. “What Electrical Circuit Theory should have taught you”)</li>
+      <li>Lockpicking Basics seminar</li>
+      <li>Videogame programming techniques (and game design)</li>
+      <li>Potential collaboration with machinists in basement of 15 St. Mary’s Street.</li>
+      <li>Someone mentioned talking with Jinara Reyes for ENG project grants.</li>
+    </ul>
+  </li>
+  <li>What workshops do people want to teach?
+    <ul>
+      <li>John-Nicholas Furst: Web programming/design (beginning to advanced)
+        <ul>
+          <li>Basic to advanced C or C++ (socket programming especially for advanced)</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Kyle Brogle: Something about security/vulnerability</li>
+  <li>Keisuke Nakayama: Art workshops!</li>
+  <li>Jeff Crowell: Computer graphics</li>
+  <li>John-Nicholas Furst: Videogame collective</li>
+  <li>Ian Felder: BUILDS minecraft server</li>
+  <li>Meeting scheduling
+    <ul>
+      <li>Kyle will send out doodle.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>—&gt; meeting ended.</p>
+:ET

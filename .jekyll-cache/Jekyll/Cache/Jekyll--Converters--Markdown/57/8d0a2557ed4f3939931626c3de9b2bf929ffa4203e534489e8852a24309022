@@ -1,0 +1,89 @@
+I"�<p>Notes recorded from BUILDS informal meeting/hack night
+Recorded 10/02/13</p>
+
+<!-- more -->
+
+<h1 id="recent-events">Recent events</h1>
+<ul>
+  <li>Just now: David Seidman (<a href="mailto:dseidman@microsoft.com">dseidman@microsoft.com</a>) was here!</li>
+  <li>He’s from Microsoft Trustworthy Computing, on the Incidents Response Team</li>
+  <li>He talked about the current state of exploitation and defense and such</li>
+  <li>He’s really cool, and if you have questions for him, you should email him</li>
+  <li>Also, Allan <a href="mailto:wirtha@bu.edu">wirtha@bu.edu</a> worked with him last summer and enjoyed it quite a bit</li>
+  <li>Intro to Binary Exploitation (Smashing the Stack!)</li>
+  <li>The examples used are at github.com/allanlw/binary</li>
+  <li>There will be another one of these in about 3 weeks
+    <ul>
+      <li>Perfectly timed if you’re in CS 210 right now!</li>
+    </ul>
+  </li>
+  <li>Intro to Git and Github</li>
+  <li>A lot of participation and interest, so we’ll probably do another one at some point</li>
+  <li>HAMR (Hacking Audio Music )</li>
+</ul>
+
+<h1 id="upcoming-events">Upcoming Events</h1>
+<ul>
+  <li>Soldering Workshop</li>
+  <li>Partnership with the ECE department
+    <ul>
+      <li>You don’t have to be an engineer</li>
+    </ul>
+  </li>
+  <li>October 25, 4-6PM, PHO 105</li>
+  <li>$10 fee for the kits</li>
+  <li>Science Hack Day</li>
+  <li>October 19-20, Harvard campus</li>
+  <li>Details to come on Facebook</li>
+  <li>Sign up ahead of time</li>
+  <li>MIT/LL CTF!</li>
+  <li>It is NOT this weekend.  What we said last week is wrong.
+    <ul>
+      <li>(The meeting minutes online are correct.)</li>
+    </ul>
+  </li>
+  <li>Registration is closing tomorrow, and we need to sort out teams.</li>
+  <li>If you want to register, please contact Danny (<a href="mailto:dannyc@bu.edu">dannyc@bu.edu</a>)
+    <ul>
+      <li>ASAP!  Like, right after the meeting</li>
+      <li>Or if you’ve registered but aren’t on the BUILDS team</li>
+    </ul>
+  </li>
+  <li>We will likely send 2 teams if we get just a few more people interested</li>
+  <li>CSAW Recap Seminar</li>
+  <li>No date set yet</li>
+  <li>Within the next 2 weeks</li>
+  <li>CSAW Finals in November</li>
+  <li>We’re sending Danny, Allan, Andrew, and George to New York!</li>
+</ul>
+
+<h1 id="ongoing-projects">Ongoing Projects</h1>
+<ul>
+  <li>Machine Learning Meetups</li>
+  <li>5 PM Fridays, every week</li>
+  <li>Run by Kenshin <a href="mailto:ben10@bu.edu">ben10@bu.edu</a></li>
+  <li>Currently a lot of basic Python usage for Machine Learning purposes</li>
+  <li>BUILDSbot</li>
+  <li>6 or 7 people working on it</li>
+  <li>Meeting tomorrow to figure out regular meeting times, and some technical discussion</li>
+  <li>Talk to Chris <a href="mailto:cwoodall@bu.edu">cwoodall@bu.edu</a></li>
+  <li>LED Panel</li>
+  <li>Meeting again this Saturday, around 2 PM</li>
+  <li>Talk to Chris <a href="mailto:cwoodall@bu.edu">cwoodall@bu.edu</a></li>
+  <li>Part of the Revitalize the Ceiling Panels initiative
+    <ul>
+      <li>I just made that name up</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="administrative-matters">Administrative Matters</h1>
+<ul>
+  <li>The wiki is up</li>
+  <li>Manual registration is still required</li>
+  <li>Email Allan <a href="mailto:wirtha@bu.edu">wirtha@bu.edu</a> or the officer list <a href="mailto:acm@bu.edu">acm@bu.edu</a></li>
+  <li>Tutorial list!</li>
+  <li>On the whiteboard, there is a list of tutorial offers and requests</li>
+  <li>We encourage you to put tally marks next to the ones you want</li>
+</ul>
+:ET

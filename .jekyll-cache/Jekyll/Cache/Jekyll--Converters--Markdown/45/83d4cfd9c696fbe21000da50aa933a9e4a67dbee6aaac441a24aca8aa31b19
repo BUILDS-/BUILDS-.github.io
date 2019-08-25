@@ -1,0 +1,29 @@
+I"�<h2 id="overview">Overview</h2>
+
+<h3 id="phase-1-pan-tilt-style-system">Phase 1: Pan-Tilt Style System</h3>
+
+<p>Document, when possible</p>
+
+<h3 id="phase-2-galvonometer-based-x-y-scanner">Phase 2: Galvonometer-Based X-Y Scanner</h3>
+
+<h4 id="galvonometer-construction">Galvonometer Construction</h4>
+
+<h4 id="theory-of-operation">Theory of Operation</h4>
+
+<h3 id="parts-list">Parts List</h3>
+
+<ul>
+  <li>2x Shaft (1/8” OD by 5”) McMaster-Carr# 1327K95</li>
+  <li>4x Sealed 1/8” ball bearings McMaster-Carr# 60355K851</li>
+  <li>Coil Wire (use Tesla Coil wire)</li>
+  <li>wood for construction</li>
+  <li>Way of mounting ball bearings</li>
+  <li>2x neodymium magnets from harddrive (or diametrically magnetized magnet possibly <a href="http://www.kjmagnetics.com/proddetail.asp?prod=R828DIA">http://www.kjmagnetics.com/proddetail.asp?prod=R828DIA</a>, but may not be long enough)</li>
+  <li>2x magnet encoder boards (Chris has and will provide more documentation)</li>
+  <li>2x neodymium magnets for encoder (<a href="http://www.kjmagnetics.com/proddetail.asp?prod=R424DIA">http://www.kjmagnetics.com/proddetail.asp?prod=R424DIA</a>)</li>
+</ul>
+
+<p>Resources</p>
+
+<p><a href="http://elm-chan.org/works/vlp/report_e.html">elmChan’s Laser Projector</a></p>
+:ET

@@ -1,0 +1,21 @@
+I"7<h2 id="intro-to-linux">Intro to Linux</h2>
+
+<ul>
+  <li>What is UNIX, differences, how to install</li>
+  <li>root filesystem - directory structure etc, bin, lib, usr, home, sbin</li>
+  <li>bash shell (common things: ls, mkdir, rm, touch]</li>
+  <li>Emacs, gedit</li>
+  <li>package management synaptic and aptitude</li>
+  <li>ssh</li>
+  <li>file permissions [chown, chmod, chgrp]</li>
+</ul>
+
+<h3 id="to-do">To do:</h3>
+
+<ul>
+  <li>get live CDs</li>
+  <li>doodle when is a good time for all interested parties</li>
+  <li>talk with LUG</li>
+  <li>advertising</li>
+</ul>
+:ET

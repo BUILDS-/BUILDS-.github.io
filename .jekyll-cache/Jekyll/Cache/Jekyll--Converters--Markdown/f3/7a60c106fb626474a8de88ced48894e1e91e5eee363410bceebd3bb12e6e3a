@@ -1,0 +1,58 @@
+I"H<h2 id="sunday-feb-5-2012-at-100pm-in-builds">Sunday Feb. 5, 2012 at 1:00pm in BUILDS</h2>
+
+<h3 id="workshop-2-tbd-buildsduino-explosion">Workshop 2 (TBD): BUILDSduino Explosion</h3>
+
+<h3 id="workshop-1-2512--100pm-through-hole-soldering-and-protoboard-prototyping">Workshop 1 (2/5/12 @ 1:00pm): Through Hole Soldering and Protoboard Prototyping</h3>
+
+<h4 id="plans">Plans</h4>
+
+<ol>
+  <li>
+    <p>Soldering Safety.</p>
+  </li>
+  <li>
+    <p>Soldering on scrap boards.</p>
+  </li>
+  <li>
+    <p>Review of Trinket, how would one build it given certain design specs.</p>
+  </li>
+  <li>
+    <p>Build trinket.</p>
+  </li>
+  <li>
+    <p>Go on your way with awesome soldering powers.</p>
+  </li>
+</ol>
+
+<h4 id="automatic-nightlight">Automatic Nightlight</h4>
+
+<h4 id="schematic-image">Schematic Image</h4>
+
+<h4 id="parts-list">Parts List</h4>
+
+<ul>
+  <li>1 10k Resistors</li>
+  <li>1 10k Potentiometer</li>
+  <li>1 470-500 ohm Resistor</li>
+  <li>1 NPN Transistor (2n2222 works nice)</li>
+  <li>Protoboard</li>
+  <li>1 LDR (Light Dependent Resistor)/Photocell</li>
+  <li>An LED of choice color (may need to change the value of R3)</li>
+  <li>2 AAA batteries (with lots of tape and</li>
+</ul>
+
+<h4 id="eagle-files">Eagle Files</h4>
+
+<p><a href="https://github.com/cwoodall/soldering-workshops">https://github.com/cwoodall/soldering-workshops</a></p>
+
+<p>(Note: these are Eagle 6 files)</p>
+
+<h3 id="problems">Problems</h3>
+
+<ul>
+  <li>Lithium Ion Batteries are expensive as are battery holders. Since I needed to construct the kit on a limited budget I had to use AAA batteries and make my own battery packs using wire and electrical tape.</li>
+  <li>Teaching circuit theory and soldering at the same time is hard… Next time focus on one of the other.</li>
+  <li>Transistors can be tricky to read and set up</li>
+  <li>Radioshack is expensive an unreliable.</li>
+</ul>
+:ET

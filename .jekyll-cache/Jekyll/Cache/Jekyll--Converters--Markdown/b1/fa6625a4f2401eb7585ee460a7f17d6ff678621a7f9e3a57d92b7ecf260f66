@@ -1,0 +1,31 @@
+I" <h3 id="overview">Overview</h3>
+<p>The Arduino Mega is a microcontroller board used in the [[Musical Stairs]]</p>
+
+<p>Project to input the signal from the IR receivers and send out a MIDI signal to the computer interface.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>{</td>
+      <td> </td>
+      <td>[[Image:ArduinoMega2560.jpg</td>
+      <td>thumb</td>
+      <td>upright</td>
+      <td>Arduino Mega 2560 Front Board.]]</td>
+      <td>}</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Additional information can be found on: <a href="http://arduino.cc/en/Main/ArduinoBoardMega">http://arduino.cc/en/Main/ArduinoBoardMega</a></p>
+
+<h3 id="problems">Problems</h3>
+
+<p>The current problem with the Arduino is that its op-amp becomes extremely hot when the Arduino is plugged into either the USB port or into the direct power. The part number is MV3581 06K CBXXG4. One potential reason for this problem is that the op-amp is short circuiting and has to be replaced. There is also the possibility that this has nothing to do with the problem, which may be located in a different part of the system.</p>
+
+<h3 id="potential-solutions">Potential Solutions</h3>
+
+<h3 id="people-working-on-this-problem">People Working on this Problem</h3>
+
+<p>Mikhail Andreev - I will be taking the Mega to my lab where I may have spare parts.</p>
+:ET
