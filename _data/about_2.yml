@@ -1,7 +1,4 @@
-text: |
-
-  ## Current Officers (2019 - 2020)
-
+text: 
   - President - Sumara Ali  
   - Vice President - Xavier Ruiz
   - Treasurer - Brandon Im
@@ -9,20 +6,36 @@ text: |
   - Project Manager - Andrew James
 
 
-  buildsOfficers: 
-    - name: "Sumara Ali"
-      img: "SumaraAliPresident.jpg"
-      position: "President"
-    - name: "Xavier Ruiz"
-      img: "XavierRuizVP.jpg"
-      position: "Vice President"
-    - name: "Brandom Im"
-      img: "BrandonImTreasurer.jpg"
-      position: "Treasurer"
-    - name: "Jordan Nichols"
-      img: "JordanNicholsSecretary.jpg"
-      position: "Secretary"
-    - name: "Andrew James"
-      img: "AndrewJamesProjectManager.jpg"
-      position: "Project Manager"
-      
+buildsOfficers: 
+  - name: "Sumara Ali"
+    img: "SumaraAliPresident.jpg"
+    position: "President"
+  - name: "Xavier Ruiz"
+    img: "XavierRuizVP.jpg"
+    position: "Vice President"
+  - name: "Brandom Im"
+    img: "BrandonImTreasurer.jpg"
+    position: "Treasurer"
+  - name: "Jordan Nichols"
+    img: "JordanNicholsSecretary.jpg"
+    position: "Secretary"
+  - name: "Andrew James"
+    img: "AndrewJamesProjectManager.jpg"
+    position: "Project Manager"
+
+acmOfficers:
+  - name: "Ishika Jain"
+    img: "IshikaPresidentLiasion.jpg"
+    position: "President and BUILDS Liasion"
+  - name: "Zhenghui Wang"
+    img: "ZhenghuiOfficer.jpg"
+    position: "Officer"
+  - name: "Nathan Ho"
+    img: "NathanOfficer.jpg"
+    position: "Officer"
+  - name: "Cici Chen"
+    img: "CiciChenOfficer.jpg"
+    position: "Officer"
+
+
+    
