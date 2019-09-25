@@ -44,7 +44,7 @@ layout: default
             <div class="row people">
                 {% for officer in site.data.about_2.buildsOfficers %}
                     <div class="col-md-4">
-                        <a href="/public/images/officers/{{officer.image}}" data-toggle="lightbox" data-title="{{officer.name}} - {{officer.position}}" data-gallery="officer-gallery" class="col-xs-12 col-md-6">
+                        <a href="/public/images/officers/{{officer.image}}" data-toggle="lightbox" data-title="{{officer.name}} - {{officer.position}}" data-gallery="officer-gallery" class="col-xs-8 col-md-6 col-xs-offset-2 col-md-offset-0">
                             <img src={{"/public/images/officers/" | append: officer.img}} class="featurette-image img-responsive">
                         </a>
                         <div class="col-xs-12 col-md-6">
