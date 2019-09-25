@@ -1,173 +1,153 @@
----
-title: About
-permalink: "about/index.html"
-layout: default
----
+--- title: About permalink: "about/index.html" layout: default ---
 
 <div class="resume row">
-	<div class="col-md-12">
-		<div id="about_me">
-			<h2>What is BUILDS?</h2>
-			<p>{{site.data.about.text | markdownify }}</p>
-			<br>
-			<div class="row">
-				<div class="offset-md-1 col-md-10">
-					<div class="row">
-						<a href="{{ "/public/images/builds_group_pic_2.jpg" }}" data-toggle="lightbox"
-							data-gallery="builds-gallery" class="col-xs-4">
-							<img src="{{ "/public/images/builds_group_pic_2.jpg" }}" class="img-fluid">
-						</a>
-						<a href="{{ "/public/images/builds_group_pic_6.jpg" }}" data-toggle="lightbox"
-							data-gallery="builds-gallery" class="col-xs-4">
-							<img src="{{ "/public/images/builds_group_pic_6.jpg" }}" class="img-fluid">
-						</a>
-						<a href="{{ "/public/images/builds_group_pic_3.jpg" }}" data-toggle="lightbox"
-							data-gallery="builds-gallery" class="col-xs-4">
-							<img src="{{ "/public/images/builds_group_pic_3.jpg" }}" class="img-fluid">
-						</a>
-					</div>
-					<br>
-					<div class="row">
-						<a href="{{ "/public/images/builds_group_pic_5.jpg" }}" data-toggle="lightbox"
-							data-gallery="builds-gallery" class="col-xs-4">
-							<img src="{{ "/public/images/builds_group_pic_5.jpg" }}" class="img-fluid">
-						</a>
-						<a href="{{ "/public/images/builds_group_pic_4.jpg" }}" data-toggle="lightbox"
-							data-gallery="builds-gallery" class="col-xs-4">
-							<img src="{{ "/public/images/builds_group_pic_4.jpg" }}" class="img-fluid">
-						</a>
-						<a href="{{ "/public/images/builds_group_pic_1.jpg" }}" data-toggle="lightbox"
-							data-gallery="builds-gallery" class="col-xs-4">
-							<img src="{{ "/public/images/builds_group_pic_1.jpg" }}" class="img-fluid">
-						</a>
-					</div>
-				</div>
-			</div>
-			<br></br>
+    <div class="col-md-12">
+        <div id="about_me">
+            <h2>What is BUILDS?</h2>
+            <p>{{site.data.about.text | markdownify }}</p>
+            <br>
+            <div class="row">
+                <div class="offset-md-1 col-md-10">
+                    <div class="row">
 
-			<br>
-			<div class="row">
-				<div class="row people">
+                        <a href="{{ " /public/images/builds_group_pic_2.jpg " }}" data-toggle="lightbox" data-gallery="builds-gallery" class="col-xs-4">
+                            <img src="{{ " /public/images/builds_group_pic_2.jpg " }}" class="img-fluid">
+                        </a>
+                        <a href="{{ " /public/images/builds_group_pic_6.jpg " }}" data-toggle="lightbox" data-gallery="builds-gallery" class="col-xs-4">
+                            <img src="{{ " /public/images/builds_group_pic_6.jpg " }}" class="img-fluid">
+                        </a>
+                        <a href="{{ " /public/images/builds_group_pic_3.jpg " }}" data-toggle="lightbox" data-gallery="builds-gallery" class="col-xs-4">
+                            <img src="{{ " /public/images/builds_group_pic_3.jpg " }}" class="img-fluid">
+                        </a>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <a href="{{ " /public/images/builds_group_pic_5.jpg " }}" data-toggle="lightbox" data-gallery="builds-gallery" class="col-xs-4">
+                            <img src="{{ " /public/images/builds_group_pic_5.jpg " }}" class="img-fluid">
+                        </a>
+                        <a href="{{ " /public/images/builds_group_pic_4.jpg " }}" data-toggle="lightbox" data-gallery="builds-gallery" class="col-xs-4">
+                            <img src="{{ " /public/images/builds_group_pic_4.jpg " }}" class="img-fluid">
+                        </a>
+                        <a href="{{ " /public/images/builds_group_pic_1.jpg " }}" data-toggle="lightbox" data-gallery="builds-gallery" class="col-xs-4">
+                            <img src="{{ " /public/images/builds_group_pic_1.jpg " }}" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <br></br>
 
-					<div class="col-md-4">
-						<a href="{{ "/public/images/max_mesirow_president.jpg" }}" data-toggle="lightbox"
-							data-title="Max Mesirow - President" data-gallery="officer-gallery"
-							class="col-xs-12 col-md-6">
-							<img src="{{ "/public/images/max_mesirow_president.jpg" }}"
-								class="featurette-image img-responsive">
-						</a>
-						<div class="col-xs-12 col-md-6">
-							<h2>Max Mesirow</h2>
-							<h4>President</h4>
-						</div>
-					</div>
+            <br>
+            <div class="row">
+                <div class="row people">
+                    {% for officer in site.data.about_2.buildsOfficers %}
+                    <div class="col-md-4">
+                        <a href="{{ '/public/images/officers/'+officer.img }}" data-toggle="lightbox" data-title="Max Mesirow - President" data-gallery="officer-gallery" class="col-xs-12 col-md-6">
+                            <img src="{{ '/public/images/officers/'+officer.img  }}" class="featurette-image img-responsive">
+                        </a>
+                        <div class="col-xs-12 col-md-6">
+                            <h2>Max Mesirow</h2>
+                            <h4>President</h4>
+                        </div>
+                    </div>
 
-					<div class="col-md-4">
-						<a href="{{ "/public/images/chet_powers_vice_president.jpg" }}" data-toggle="lightbox"
-							data-title="Chet Powers - Vice President" data-gallery="officer-gallery"
-							class="col-xs-12 col-md-6">
-							<img src="{{ "/public/images/chet_powers_vice_president.jpg" }}"
-								class="featurette-image img-responsive">
-						</a>
-						<div class="col-xs-12 col-md-6">
-							<h2>Chet Powers</h2>
-							<h4>Vice President</h4>
-						</div>
-					</div>
 
-					<div class="col-md-4">
-						<a href="{{ "/public/images/daniel_gould_treasurer.jpg" }}" data-toggle="lightbox"
-							data-title="Daniel Gould - Treasurer" data-gallery="officer-gallery"
-							class="col-xs-12 col-md-6">
-							<img src="{{ "/public/images/daniel_gould_treasurer.jpg" }}"
-								class="featurette-image img-responsive">
-						</a>
-						<div class="col-xs-12 col-md-6">
-							<h2>Dan Gould</h2>
-							<h4>Treasurer</h4>
-						</div>
-					</div>
-				</div>
-				<div class="row people">
-					<div class="col-md-4">
-						<a href="{{ "/public/images/armin_sabouri_secretary.jpg" }}" data-toggle="lightbox"
-							data-title="Armin Sabouri - Secretary" data-gallery="officer-gallery"
-							class="col-xs-12 col-md-6">
-							<img src="{{ "/public/images/armin_sabouri_secretary.jpg" }}"
-								class="featurette-image img-responsive">
-						</a>
-						<div class="col-xs-12 col-md-6">
-							<h2>Armin Sabouri</h2>
-							<h4>Secretary</h4>
-						</div>
-					</div>
 
-					<div class="col-md-4">
-						<a href="{{ "/public/images/katie_quirk_social_chair.jpg" }}" data-toggle="lightbox"
-							data-title="Katie Quirk - Evangelist" data-gallery="officer-gallery"
-							class="col-xs-12 col-md-6">
-							<img src="{{ "/public/images/katie_quirk_social_chair.jpg" }}"
-								class="featurette-image img-responsive">
-						</a>
-						<div class="col-xs-12 col-md-6">
-							<h2>Katie Quirk</h2>
-							<h4>Social Chair</h4>
-						</div>
-					</div>
 
-					<div class="col-md-4">
-						<a href="{{ "/public/images/noah_naiman_vice_social_chair.jpg" }}" data-toggle="lightbox"
-							data-title="Katie Quirk - Evangelist" data-gallery="officer-gallery"
-							class="col-xs-12 col-md-6">
-							<img src="{{ "/public/images/noah_naiman_vice_social_chair.jpg" }}"
-								class="featurette-image img-responsive">
-						</a>
-						<div class="col-xs-12 col-md-6">
-							<h2>Noah Naiman</h2>
-							<h4>Vice Social Chair</h4>
-						</div>
-					</div>
-				</div>
-					<div class="row people">
-					<div class="col-md-4">
-						<a href="{{ "/public/images/steven_brzozowski_social_media_officer.jpg" }}"
-							data-toggle="lightbox" data-title="Mark Bestavros - Evangelist"
-							data-gallery="officer-gallery" class="col-xs-12 col-md-6">
-							<img src="{{ "/public/images/steven_brzozowski_social_media_officer.jpg" }}"
-								class="featurette-image img-responsive">
-						</a>
-						<div class="col-xs-12 col-md-6">
-							<h2>Steven Brzozowski</h2>
-							<h4>Social Media Officer</h4>
-						</div>
-					</div>
 
-					<br>
-				</div>
-			</div>
-			<br></br>
 
-			<h2>Join the Mailing List</h2>
-			<div id="mc_embed_signup">
-				<form
-					action="//builds.us14.list-manage.com/subscribe/post?u=48eeff7657509db01b37d0c9b&amp;id=c7c2160530"
-					method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
-					target="_blank" novalidate>
-					<div id="mc_embed_signup_scroll">
-						<input style="width: 200px;" class="form-control col-xs-2" type="email" value="" name="EMAIL"
-							class="email" id="mce-EMAIL" placeholder="Enter Email" required>
-						<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-						<div style="display: none;" aria-hidden="true"><input type="text"
-								name="b_48eeff7657509db01b37d0c9b_c7c2160530" tabindex="-1" value=""></div>
-						<div style="width: 20px; float:left; margin-left: 5px;"><input
-								class="btn btn-danger btn text-center" type="submit" value="Subscribe" name="subscribe"
-								id="mc-embedded-subscribe" class="button"></div>
-					</div>
-				</form>
-			</div>
-			<br></br><br>
 
-			<p>{{site.data.about_3.text | markdownify }}</p>
-		</div>
-	</div>
+                    <a href="/public/images/officers/{{ officer.img | prepend:site.baseurl }}">{{item.text}}</a> {% unless forloop.last %} | {% endunless %} {% endfor %}
+                    <div class="col-md-4">
+                        <a href="{{ " /public/images/max_mesirow_president.jpg " }}" data-toggle="lightbox" data-title="Max Mesirow - President" data-gallery="officer-gallery" class="col-xs-12 col-md-6">
+                            <img src="{{ " /public/images/max_mesirow_president.jpg " }}" class="featurette-image img-responsive">
+                        </a>
+                        <div class="col-xs-12 col-md-6">
+                            <h2>Max Mesirow</h2>
+                            <h4>President</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <a href="{{ " /public/images/chet_powers_vice_president.jpg " }}" data-toggle="lightbox" data-title="Chet Powers - Vice President" data-gallery="officer-gallery" class="col-xs-12 col-md-6">
+                            <img src="{{ " /public/images/chet_powers_vice_president.jpg " }}" class="featurette-image img-responsive">
+                        </a>
+                        <div class="col-xs-12 col-md-6">
+                            <h2>Chet Powers</h2>
+                            <h4>Vice President</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <a href="{{ " /public/images/daniel_gould_treasurer.jpg " }}" data-toggle="lightbox" data-title="Daniel Gould - Treasurer" data-gallery="officer-gallery" class="col-xs-12 col-md-6">
+                            <img src="{{ " /public/images/daniel_gould_treasurer.jpg " }}" class="featurette-image img-responsive">
+                        </a>
+                        <div class="col-xs-12 col-md-6">
+                            <h2>Dan Gould</h2>
+                            <h4>Treasurer</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="row people">
+                    <div class="col-md-4">
+                        <a href="{{ " /public/images/armin_sabouri_secretary.jpg " }}" data-toggle="lightbox" data-title="Armin Sabouri - Secretary" data-gallery="officer-gallery" class="col-xs-12 col-md-6">
+                            <img src="{{ " /public/images/armin_sabouri_secretary.jpg " }}" class="featurette-image img-responsive">
+                        </a>
+                        <div class="col-xs-12 col-md-6">
+                            <h2>Armin Sabouri</h2>
+                            <h4>Secretary</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <a href="{{ " /public/images/katie_quirk_social_chair.jpg " }}" data-toggle="lightbox" data-title="Katie Quirk - Evangelist" data-gallery="officer-gallery" class="col-xs-12 col-md-6">
+                            <img src="{{ " /public/images/katie_quirk_social_chair.jpg " }}" class="featurette-image img-responsive">
+                        </a>
+                        <div class="col-xs-12 col-md-6">
+                            <h2>Katie Quirk</h2>
+                            <h4>Social Chair</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <a href="{{ " /public/images/noah_naiman_vice_social_chair.jpg " }}" data-toggle="lightbox" data-title="Katie Quirk - Evangelist" data-gallery="officer-gallery" class="col-xs-12 col-md-6">
+                            <img src="{{ " /public/images/noah_naiman_vice_social_chair.jpg " }}" class="featurette-image img-responsive">
+                        </a>
+                        <div class="col-xs-12 col-md-6">
+                            <h2>Noah Naiman</h2>
+                            <h4>Vice Social Chair</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="row people">
+                    <div class="col-md-4">
+                        <a href="{{ " /public/images/steven_brzozowski_social_media_officer.jpg " }}" data-toggle="lightbox" data-title="Mark Bestavros - Evangelist" data-gallery="officer-gallery" class="col-xs-12 col-md-6">
+                            <img src="{{ " /public/images/steven_brzozowski_social_media_officer.jpg " }}" class="featurette-image img-responsive">
+                        </a>
+                        <div class="col-xs-12 col-md-6">
+                            <h2>Steven Brzozowski</h2>
+                            <h4>Social Media Officer</h4>
+                        </div>
+                    </div>
+
+                    <br>
+                </div>
+            </div>
+            <br></br>
+
+            <h2>Join the Mailing List</h2>
+            <div id="mc_embed_signup">
+                <form action="//builds.us14.list-manage.com/subscribe/post?u=48eeff7657509db01b37d0c9b&amp;id=c7c2160530" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+                        <input style="width: 200px;" class="form-control col-xs-2" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter Email" required>
+                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="display: none;" aria-hidden="true"><input type="text" name="b_48eeff7657509db01b37d0c9b_c7c2160530" tabindex="-1" value=""></div>
+                        <div style="width: 20px; float:left; margin-left: 5px;"><input class="btn btn-danger btn text-center" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                    </div>
+                </form>
+            </div>
+            <br></br><br>
+
+            <p>{{site.data.about_3.text | markdownify }}</p>
+        </div>
+    </div>
 </div>
