@@ -27,15 +27,15 @@ acmOfficers:
   - name: "Ishika Jain"
     img: "IshikaPresidentLiasion.jpg"
     position: "President and BUILDS Liasion"
-  - name: "Zhenghui Wang"
-    img: "ZhenghuiOfficer.jpg"
-    position: "Officer"
   - name: "Nathan Ho"
     img: "NathanOfficer.jpg"
-    position: "Officer"
+    position: "Vice President"
+  - name: "Zhenghui Wang"
+    img: "ZhenghuiOfficer.jpg"
+    position: "Treasurer"
   - name: "Cici Chen"
     img: "CiciChenOfficer.jpg"
-    position: "Officer"
+    position: "Secretary"
 
 
     
