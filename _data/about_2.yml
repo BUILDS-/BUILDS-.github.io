@@ -30,11 +30,11 @@ acmOfficers:
   - name: "Nathan Ho"
     img: "NathanOfficer.jpg"
     position: "Vice President"
-  - name: "Zhenghui Wang"
-    img: "ZhenghuiOfficer.jpg"
-    position: "Treasurer"
   - name: "Cici Chen"
     img: "CiciChenOfficer.jpg"
+    position: "Treasurer"
+  - name: "Zhenghui Wang"
+    img: "ZhenghuiOfficer.jpg"
     position: "Secretary"
 
 
