@@ -42,7 +42,7 @@ layout: default
             <br>
             
             <div class="row people">
-                {% for officer in site.data.about_2.buildsOfficers %}
+                {% for officer in site.data.about.buildsOfficers %}
                     <div class="col-md-4">
                         <a href="/public/images/officers/{{officer.image}}" data-toggle="lightbox" data-title="{{officer.name}} - {{officer.position}}" data-gallery="officer-gallery" class="col-xs-8 col-md-6 col-xs-offset-2 col-md-offset-0">
                             <img src={{"/public/images/officers/" | append: officer.img}} class="featurette-image img-responsive">
@@ -72,7 +72,7 @@ layout: default
             </div>
             <div class="row">
             <div class="col-xs-12">
-                <p>{{site.data.about_3.text | markdownify }}</p>
+                <p>{{site.data.about.text2 | markdownify }}</p>
             </div>
             </div>
 </div>

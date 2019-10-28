@@ -10,33 +10,33 @@ layout: default
 	<div class="col-md-12">
 		<div id="about_me">
 			<h2>Acknowledgements</h2>
-			<p>{{site.data.acknowledgements.text | markdownify }}</p>
+			<p>{{site.data.acknowledgements.part1 | markdownify }}</p>
 			<br>
 			<div class="row">
 				<div class="offset-md-3 col-md-9 col-sm-12">
-				    <div class="row">
+					<div class="row">
 						<a href="{{ "/public/images/newark.jpg" }}" data-toggle="lightbox" class="col-sm-6">
-				        	<img class="img-thumbnail" src="{{ "/public/images/newark.jpg" }}"/>
-				      	</a>
-	      			</div>
-	      		</div>
-	      	</div>
-	      	<br>
-	      	<p>{{site.data.acknowledgements_2.text | markdownify }}</p>
-    	</div>
+							<img class="img-thumbnail" src="{{ "/public/images/newark.jpg" }}" />
+						</a>
+					</div>
+				</div>
+			</div>
+			<br>
+			<p>{{site.data.acknowledgements.part2 | markdownify }}</p>
+		</div>
 
-    	<br></br><br></br><br></br><br>
+		<br></br><br></br><br></br><br>
 
-    	<div class="container game">
-    	    <canvas id="c"></canvas>
-		    <div id=options class=closed>
-		        <p><span>rotVel</span><span><input type=range id=rotVel_input min=0 max=.1 value=.01 step=.002 /></span>
-		        <p><span>zoom</span><span><input type=range id=zoom_input min=.1 max=5 value=1 step=.1 /></span>
-		        <p><span>showDots</span><span><input type=checkbox id=showDots_input /></span>
-		        <p id=toggle_options>move options</p>
-		    </div>
-    		<p id=instruction>Hack the Planet!<br>Use your arrow keys</p>
-    	</div>
+		<div class="container game">
+			<canvas id="c"></canvas>
+			<div id=options class=closed>
+				<p><span>rotVel</span><span><input type=range id=rotVel_input min=0 max=.1 value=.01 step=.002 /></span>
+					<p><span>zoom</span><span><input type=range id=zoom_input min=.1 max=5 value=1 step=.1 /></span>
+						<p><span>showDots</span><span><input type=checkbox id=showDots_input /></span>
+							<p id=toggle_options>move options</p>
+			</div>
+			<p id=instruction>Hack the Planet!<br>Use your arrow keys</p>
+		</div>
 	</div>
 </div>
 

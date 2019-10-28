@@ -7,7 +7,7 @@
   <p>{{ site.header }}</p>
   <hr/>
 
-  <div class="credits ">
+  <div class="credits sticky">
     {% for item in site.data.nav.items %}
       <a href="{{ item.path | prepend:site.baseurl }}">{{item.text}}</a> {% unless forloop.last %} | {% endunless %}
     {% endfor %}

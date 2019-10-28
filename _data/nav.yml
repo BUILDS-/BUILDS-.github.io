@@ -1,5 +1,7 @@
 # nav items in header
 items:
+  - text: 'Home'
+    path: '/'
   - text: 'About'
     path: '/about'
   - text: 'News'
