@@ -1,9 +1,0 @@
-
-# the name of social network must match the appropriate font awesome icon name
-
-social:
-  github: 'https://github.com/BUILDS-'
-  facebook: 'https://www.facebook.com/groups/acmbuilds'
-  reddit: 'http://reddit.com/r/builds'
-  # empty is used here because for some reason, the icons will be split into 2 lines if you don't have 4 icon values.
-  empty: 'http://empty.com'

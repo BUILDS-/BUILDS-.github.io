@@ -1,69 +1,68 @@
-# builds-.github.io
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Latest version of the BUILDS website created on July 3, 2017. Feel free to add posts on your hacks in the `_posts/` folder.
-Feel free to make any styling changes!
+## Available Scripts
 
-## Installing jekyll on Ubuntu
+In the project directory, you can run:
 
-```
-sudo apt-get install ruby ruby-dev build-essential
-sudo gem install jekyll bundler
-sudo apt-get install zlib1g-dev
-sudo gem install jekyll-sitemap jekyll-paginate jemoji --verbose
-```
+### `yarn start`
 
-### Run locally
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-```
-jekyll serve
-```
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-Visit [http://127.0.0.1:4000](http://127.0.0.1:4000) to see the site.
+### `yarn test`
 
-## Adding new posts to the site
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-It is really easy to add new blog posts. We should update it often because there is so much historical value by keeping track of what we've done!
+### `yarn build`
 
-```
-cd _posts/
-```
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Create a file like `2012-03-22-buildsbot-12-ounce.md` with the `YYYY-MM-DD-name.md` format.
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-```
-touch 2012-03-22-buildsbot-12-ounce.md
-```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Header
+### `yarn eject`
 
-Add a Header like this. Tags can be anything, but you should use the ones that already exist like `projects`.
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-```
----
-title:  "BUILDSBot: 12 Ounce"
-date:   2012-03-22 13:07:36
-author: "Chris Woodall"
-permalink: /news/:year/:month/:day/:title/
-tag: [projects]
----
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Start writing.
-```
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You can see example posts in the `_example_posts/` folder or use the format of the existing ones in `_posts/`.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Customization
+## Learn More
 
-Edit **_config.yml** and files inside **_data/** before using
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-### Files with old_
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Files with the prefix `old_` are from the template. I left the files there for future reference.
+### Code Splitting
 
-## Licensing
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-[MIT](https://github.com/railsr/autm-rb/blob/master/LICENSE)
+### Analyzing the Bundle Size
 
-[pages]: http://pages.github.com
-[fork]: https://github.com/railsr/autm-rb/fork
-[demo]: http://kirqe.github.io/autm-rb/
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `yarn build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
