@@ -11,10 +11,12 @@ const News = (props) => {
   fetch(`/posts/${year}-${month}-${day}-${name}.md`)
     .then((res) => res.text())
     .then((t) => {
-        
-      const d = t
-        .replace(/(?<=---)([\s\S]*?)(?=---)/gi, "~~~")
-        .replace("---~~~---", "---");
+      const firstDahdahdah = t.indexOf("---");
+      const secondDahdahdah = t.indexOf("---", firstDahdahdah+1);
+      const d = t.substring(secondDahdahdah);
+      // const d = t
+      //   .replace(/(?<=---)([\s\S]*?)(?=---)/gi, "~~~")
+      //   .replace("---~~~---", "---");
       setMarkDown(d);
       return t;
     })
