@@ -3,52 +3,30 @@ import React from "react";
 import OfficerList from "../components/OfficerList";
 
 const BUILDSOfficers = [{
-    name: "Sumara Ali",
+    name: "Dominic Maglione",
     role: "President",
-    img: "SumaraAli.jpg"
+    img: "DominicMaglione.jpeg"
 },
 {
-    name: "Xavier Ruiz",
+    name: "Phillip Tran",
     role: "Vice President",
-    img: "XavierRuiz.jpg"
+    img: "PhillipTran.jpeg"
 },
 {
-    name: "Brandon Im",
+    name: "Phil Ledoit",
     role: "Treasurer",
-    img: "BrandonIm.jpg"
+    img: "PhilLedoit.jpeg"
 },
 {
-    name: "Jordan Nichols",
+    name: "Vineet Raju",
     role: "Secretary",
-    img: "JordanNichols.jpg"
+    img: "VineetRaju.jpeg"
 },
 {
-    name: "Andrew James",
+    name: "Daniel Melchor",
     role: "Project Manager",
-    img: "AndrewJames.jpg"
+    img: "DanielMelchor.jpeg"
 }];
-
-
-const ACMOfficers = [{
-    name: "Ishika Jain",
-    role: "President and BUILDS Liaison",
-    img: "IshikaJain.jpg"
-},
-{
-    name: "Nathan Ho",
-    role: "Vice President",
-    img: "NathanHo.jpg"
-},
-{
-    name: "Cici Chen",
-    role: "Treasurer",
-    img: "CiciChen.jpg"
-},
-{
-    name: "Zhenghui Wang",
-    role: "Officer",
-    img: "ZhenghuiWang.jpg"
-},]
 
 const About = (props) => {
   return (
@@ -105,46 +83,12 @@ const About = (props) => {
 
         <div className="row">
           <div className="col-xs-12 col-md-6 col-lg-4">
-            <img
-              src="/assets/images/acm_logo.png"
-              alt="ACM Logo"
-              width="100%"
-            />
-            <h2>About ACM (Association for Computing Machinery)</h2>
-            <p>
-              ACM is apart of BUILDS, and is run by BUILDS members. The BU
-              chapter of ACM has specific goals:
-            </p>
-            <ul>
-              <li>
-                Incorporate new/prospective CS students into the BU CS community
-              </li>
-              <li>
-                Provide workshops and resources to CS students that will
-                introduce them to sub-fields of computer science
-              </li>
-              <li>
-                Demonstrate how other fields/majors can be incorporated with
-                computer science to create new and exciting projects
-                (cross-denominational work
-              </li>
-            </ul>
-          </div>
-
-          <div className="col-xs-12 col-md-6 col-lg-8">
-            <h2>Current ACM Officers</h2>
-            <OfficerList list={ACMOfficers}/>
-          </div>
-        </div>
-
-        <div className="row">
-          <div className="col-xs-12 col-md-6 col-lg-4">
+            <h2>About 0xBU</h2>
             <img
               src="/assets/images/0xBU_logo.png"
               alt="0xBU Logo"
               width="100%"
             />
-            <h2>About 0xBU</h2>
             <p>
               0XBU is apart of BUILDS, and is run by BUILDS members. It is not
               currently active, but it was mainly a CTF club. If interested in

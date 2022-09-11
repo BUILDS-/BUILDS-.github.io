@@ -91,38 +91,9 @@ const Home = (props) => {
                         🗺
                       </span>
                     </a>
-                    , Room B26, Boston, MA, 02215 in Boston University.
+                    , Rooms B40 and B42, Boston, MA, 02215 in Boston University.
                   </li>
                 </ul>
-              </div>
-            </Card>
-          </div>
-
-          <div className="col-xs-12 col-md-6" style={{ padding: "0.5em" }}>
-            <H3>Next Upcoming Event</H3>
-
-            <Card>
-              {/* <EventImage/> */}
-              <div className="content">
-                <h4>
-                  BUILDS Elections by mid-November!
-                  <span role="img" aria-label="voting emoji">
-                    🗳
-                  </span>
-                </h4>
-                <p>
-                  BUILDS is having an elections to vote in the next group of
-                  officers that will run the club. Please check back here soon
-                  for more information. Be sure to sign up for our mailing list
-                  for updates, too!
-                </p>
-
-                <Button
-                  type="internal"
-                  alt="Click to view our calendar page"
-                  text="View All Events on Calendar"
-                  link="/calendar"
-                />
               </div>
             </Card>
           </div>

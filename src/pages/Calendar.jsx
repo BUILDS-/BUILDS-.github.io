@@ -32,65 +32,6 @@ const Calendar = (props) => {
             <h1>Calendar</h1>
             
           </div>
-          <div className="col-xs-12 col-md-6" style={{ padding: "0.5em" }}>
-            <H3>Next Upcoming Event</H3>
-
-            <Card>
-              {/* <EventImage/> */}
-              <div className="content">
-                <h4>
-                  BUILDS Elections by mid-November!
-                  <span role="img" aria-label="voting emoji">
-                    🗳
-                  </span>
-                </h4>
-                <p>
-                  BUILDS is having an elections to vote in the next group of
-                  officers that will run the club. Please check back here soon
-                  for more information. Be sure to sign up for our mailing list
-                  for updates, too!
-                </p>
-
-                <form
-                  action="//builds.us14.list-manage.com/subscribe/post?u=48eeff7657509db01b37d0c9b&amp;id=c7c2160530"
-                  method="post"
-                  id="mc-embedded-subscribe-form"
-                  name="mc-embedded-subscribe-form"
-                  target="_blank"
-                  noValidate=""
-                >
-                  <div style={{ display: "flex", flexWrap: "wrap" }}>
-                    <input
-                      style={{
-                        padding: "1em",
-                        borderRadius: "20px",
-                        border: "none",
-                        marginRight: "5px",
-                      }}
-                      type="email"
-                      name="EMAIL"
-                      placeholder="Enter Email"
-                      required=""
-                    />
-                    <div style={{ display: "none" }} aria-hidden="true">
-                      <input
-                        type="text"
-                        name="b_48eeff7657509db01b37d0c9b_c7c2160530"
-                        tabIndex="-1"
-                      />
-                    </div>
-                    <Button
-                      type="action"
-                      alt="Sign up for our mailing list"
-                      text="Sign Up"
-                      action={() => console.log("hi")}
-                    />
-                  </div>
-                </form>
-              </div>
-            </Card>
-          </div>
-
           <div className="col-xs-12 col-md-6">
             <h3>More coming soon!</h3>
           </div>
